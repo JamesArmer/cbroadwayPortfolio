@@ -16,26 +16,26 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#work">
           <NavLink>Work</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>        
       <li>
-        <Link href="#about">
+        <Link href="#contact">
           <NavLink>Contact</NavLink>
         </Link>
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://www.linkedin.com/in/charles-broadway-ba212a115/">
+        <SocialIcons href="https://www.linkedin.com/in/charles-broadway-ba212a115/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/cbroadway_/">
+        <SocialIcons href="https://www.instagram.com/cbroadway_/" target="_blank">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
