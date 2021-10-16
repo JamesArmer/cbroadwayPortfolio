@@ -4,7 +4,7 @@ export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
-  margin: 0 auto;
+  margin: auto;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
@@ -25,12 +25,12 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
+  font-weight: 500;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -55,12 +55,13 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
-  max-width: 800px;
+  max-width: 100%;
   font-size: 24px;
-  line-height: 40px;
+  line-height: 50px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+  text-align: center;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -78,13 +79,13 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 120px;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #FFFFFF 0%, #000000 100%)' :
+    'linear-gradient(270deg, #FFFFFF 0%, #000000 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -103,7 +104,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #000000;
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;

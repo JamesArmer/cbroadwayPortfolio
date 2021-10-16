@@ -1,24 +1,13 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, {  } from "react";
 
 import {
-  CarouselButton,
-  CarouselButtonDot,
-  CarouselButtons,
-  CarouselContainer,
-  CarouselItem,
-  CarouselItemImg,
-  CarouselItemText,
-  CarouselItemTitle,
-  CarouselMobileScrollNode,
   LinkItem,
 } from "./ContactStyles";
 import {
   Section,
   SectionDivider,
-  SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+} from "../../styles/GlobalComponents/indexStyles";
 
 const Contact = () => (
   <Section id="contact">

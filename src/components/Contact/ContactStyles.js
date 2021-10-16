@@ -155,15 +155,16 @@ export const CarouselButtonDot = styled.div`
 
 export const LinkItem = styled.a`
 	font-size: 18px;
-	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	line-height: 50px;
+	color: #000000;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+  text-align: center;
 
 	&:hover {
-		color: #fff;
+		color: #cdcbcb;
 		left: 6px;
 	}
 

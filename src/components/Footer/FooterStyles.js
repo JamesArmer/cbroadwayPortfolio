@@ -17,14 +17,14 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: #000000;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: #cdcbcb;
 		left: 6px;
 	}
 
@@ -82,7 +82,7 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: #000000;
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;
@@ -102,7 +102,7 @@ export const Slogan = styled.p`
 `
 
 export const SocialContainer = styled.div`
-	display: flex;
+display: flex;
   align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
@@ -148,7 +148,7 @@ export const LinkTitle = styled.h4`
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: #000000;
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
@@ -156,4 +156,19 @@ export const LinkTitle = styled.h4`
 		line-height: 12px;
 		margin-bottom: 8px;
 	}
+`
+
+// Social Icons
+export const SocialIcons = styled.a`
+transition: 0.3s ease;
+color: #5b5b5b;
+border-radius: 50px;
+padding: 8px;
+margin-right: 20px;
+&:hover {
+    background-color: #cdcbcb;
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
 `
