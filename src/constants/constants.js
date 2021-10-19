@@ -2,7 +2,7 @@ export const projects = [
   {
     title: '5G X LiFi',
     description: "",
-      image: '/images/5GXLiFi.jpg',
+      image: '/images/5G X LiFi/Images/Darker Hero-05.jpg',
       tags: ['Product'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Cornetto',
     description:"",
-    image: '/images/Cornetto.jpg',
+    image: '/images/Cornetto/Images/Antarctic Icon.png',
     tags: ['Branding'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: '1 Family 1 Room',
     description: "",
-      image: '/images/1Family1Room.jpg',
+      image: '/images/PDR Lunchbox/Images/PDR Lunchbox-16.jpg',
       tags: ['Empathy'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -65,7 +65,7 @@ export const projects = [
   {
     title: 'Sight',
     description: "",
-    image: '/images/Sight.jpg',
+    image: '/images/Sight/Images/Buttons.png',
     tags: ['Product'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -74,7 +74,7 @@ export const projects = [
   {
     title: 'Homedock',
     description: "",
-    image: '/images/Homedock.jpg',
+    image: '/images/Home Dock/Images/Hero.png',
     tags: ['Product'],
     source: 'https://google.com',
     visit: 'https://google.com',

@@ -11,7 +11,7 @@ const Hero = () => (
           Charles Broadway
         </SectionTitle>
         <ShortDescriptionText>
-          Je suis design
+          Industrial Design
         </ShortDescriptionText>
       </LeftSection>
     </Section>
