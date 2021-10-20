@@ -1,11 +1,12 @@
 import React from 'react';
 import { AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
+import { SectionDivider } from '../../styles/GlobalComponents/indexStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionDivider />
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>

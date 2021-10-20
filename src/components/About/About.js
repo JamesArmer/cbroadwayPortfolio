@@ -11,7 +11,6 @@ const About = () =>  (
       Design and Manufacture, University of Nottingham - First Class <br/><br/>
       Download CV
     </SectionText>
-    <SectionDivider colorAlt />
   </Section>
 );
 

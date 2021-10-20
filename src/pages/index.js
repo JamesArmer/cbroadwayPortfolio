@@ -1,21 +1,17 @@
 import Hero from '../components/Hero/Hero';
-import Projects from '../components/Work/Work';
-import Technologies from '../components/About/About';
-import Timeline from '../components/Contact/Contact';
+import Work from '../components/Work/Work';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents/indexStyles';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <Layout>
       <Section grid>
         <Hero />
       </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
+      <Work />
     </Layout>
   );
 };
 
-export default Home;
+export default HomePage;

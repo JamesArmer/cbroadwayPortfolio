@@ -1,4 +1,4 @@
-import React, {  } from "react";
+import React from "react";
 
 import {
   LinkItem,
@@ -11,6 +11,7 @@ import {
 
 const Contact = () => (
   <Section id="contact">
+    <SectionDivider/>
     <SectionTitle>Contact</SectionTitle>
     <LinkItem href="mailto:cbroadwayid@gmail.com">
       cbroadwayid@gmail.com
@@ -18,7 +19,6 @@ const Contact = () => (
     <LinkItem href="https://www.instagram.com/cbroadway_/" target="_blank">
       @cbroadway_
     </LinkItem>
-    <SectionDivider />
   </Section>
 );
 
