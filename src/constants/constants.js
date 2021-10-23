@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/Cornetto/Images/Antarctic Icon.png',
     tags: ['Branding'],
     source: '',
-    visit: '',
+    visit: '/work/cornetto',
     id: 1,
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
       image: '/images/PDR Lunchbox/Images/PDR Lunchbox-16.jpg',
       tags: ['Empathy'],
     source: '',
-    visit: '',
+    visit: '/work/PDRLunchbox',
     id: 2,
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     image: '/images/Sight/Images/Buttons.png',
     tags: ['Product'],
     source: '',
-    visit: '',
+    visit: '/work/sight',
     id: 3,
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     image: '/images/Home Dock/Images/Hero.png',
     tags: ['Product'],
     source: '',
-    visit: '',
+    visit: '/work/homedock',
     id: 4,
   },
 ];

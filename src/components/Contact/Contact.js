@@ -10,8 +10,8 @@ import {
 } from "../../styles/GlobalComponents/indexStyles";
 
 const Contact = () => (
-  <Section id="contact">
-    <SectionDivider/>
+  <Section id="contact" extraPadding>
+    <SectionDivider divider/>
     <SectionTitle>Contact</SectionTitle>
     <LinkItem href="mailto:cbroadwayid@gmail.com">
       cbroadwayid@gmail.com
