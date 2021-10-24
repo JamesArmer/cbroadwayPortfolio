@@ -1,34 +1,15 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const SectionText = styled.p`
-max-width: 70%;
-font-size: 20px;
-line-height: 25px;
-font-weight: 300;
-padding-bottom: 3.6rem;
-color: #000000;
-text-align: justify;
-margin-left: auto;
-margin-right: auto;
-
-@media ${(props) => props.theme.breakpoints.md} {
-  max-width: 670px;
-  font-size: 20px;
-  line-height: 32px;
-  padding-bottom: 24px;
-}
-
-@media ${(props) => props.theme.breakpoints.sm} {
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 16px;
-}
-`
+export const CentreDiv = styled.div`
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+`;
 
 export const SectionTitle = styled.h2`
   font-weight: lighter;
   font-size: 50px;
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: ${(props) => (props.main ? "72px" : "56px")};
   background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,55 +17,128 @@ export const SectionTitle = styled.h2`
   margin-bottom: 16px;
   text-align: center;
 
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
-  @media ${props => props.theme.breakpoints.md}{
-    font-size: ${(props) => props.main ? '56px' : '48px'};
-    line-height: ${(props) => props.main ? '56px' : '48px'};
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: ${(props) => (props.main ? "56px" : "48px")};
+    line-height: ${(props) => (props.main ? "56px" : "48px")};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+    padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
   }
 
-  @media ${props => props.theme.breakpoints.sm}{
+  @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
-    line-height: ${(props) => props.main ? '32px' : '40px'};
+    font-size: ${(props) => (props.main ? "28px" : "32px")};
+    line-height: ${(props) => (props.main ? "32px" : "40px")};
     margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
     max-width: 100%;
   }
-`
+`;
+
+export const SectionText = styled.p`
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #000000;
+  text-align: justify;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 670px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+`;
 
 export const SectionQuote = styled.p`
-max-width: 100%;
-font-size: 20px;
-font-style: italic;
-line-height: 50px;
-font-weight: lighter;
-padding-bottom: 2.4rem;
-color: #000000;
-text-align: center;
-
-@media ${(props) => props.theme.breakpoints.md} {
-  max-width: 670px;
+  max-width: 100%;
   font-size: 20px;
-  line-height: 32px;
-  padding-bottom: 24px;
-}
+  font-style: ${(props) => (props.italic ? "italic" : "")};
+  line-height: 50px;
+  font-weight: lighter;
+  padding-bottom: ${(props) => (props.noPadding ? "": "2.4rem")};
+  color: #000000;
+  text-align: center;
 
-@media ${(props) => props.theme.breakpoints.sm} {
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 16px;
-}
-`
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 670px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
 
-export const Img = styled.img`
-  width:60%;
-  height:50%;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+`;
+
+export const LandscapeImg = styled.img`
+  width: 100%;
   display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+`;
+
+export const SquareImg = styled.img`
+  height: 100%;
+  max-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  padding-bottom: 12px;
+`;
+
+export const LandscapeVideo = styled.video`
+  width: 100%;
   padding-top: 24px;
-`
+  padding-bottom: 24px;
+`;
+
+export const SplitImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: ${(props) => (props.landscape ? "auto" : "400px")};
+  grid-gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+`;
+
+export const GridImgWide = styled.div`
+  grid-column: span 4 / auto;
+`;
+
+export const GridImgThin = styled.div`
+  grid-column: span 2 / auto;
+`;
+
+export const GridImgRegular = styled.div`
+  grid-column: span 3 / auto;
+`;
+
+export const GridImgPortrait = styled.img`
+  height: 100%;
+`;
+
+export const GridImgLandscape = styled.img`
+  width: 100%;
+`;
+
+export const GridVideoPortrait = styled.video`
+  height: 100%;
+`;
+
+export const GridVideoLandscape = styled.video`
+  width: 100%;
+`;
