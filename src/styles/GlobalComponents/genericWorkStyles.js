@@ -4,6 +4,7 @@ export const CentreDiv = styled.div`
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 20px;
 `;
 
 export const SectionTitle = styled.h2`
@@ -91,12 +92,23 @@ export const LandscapeImg = styled.img`
   padding-bottom: 12px;
 `;
 
+export const PortraitImg = styled.img`
+height: 100%;
+max-height: 800px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-top: 12px;
+padding-bottom: 12px;
+`;
+
 export const SquareImg = styled.img`
   height: 100%;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-top: 12px;
   padding-bottom: 12px;
 `;
 
@@ -109,7 +121,7 @@ export const LandscapeVideo = styled.video`
 export const SplitImgGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-template-rows: ${(props) => (props.landscape ? "auto" : "400px")};
+  grid-template-rows: ${(props) => (props.landscape ? "auto" : props.portrait ? "650px": "400px")};
   grid-gap: 10px;
   padding-top: 12px;
   padding-bottom: 12px;

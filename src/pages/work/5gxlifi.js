@@ -15,6 +15,7 @@ import {
   SplitImgGrid,
   GridVideoPortrait,
   GridVideoLandscape,
+  PortraitImg,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const FiveGXLiFi = () => {
@@ -45,7 +46,7 @@ const FiveGXLiFi = () => {
           birds.
         </SectionText>
         <LandscapeImg src="/images/5G X LiFi/Images/Bird Sketches.png" />
-        <SplitImgGrid portrait>
+        <SplitImgGrid>
           <GridImgThin>
             <GridImgPortrait src="/images/5G X LiFi/Images/Lamp Close up-1.jpg" />
           </GridImgThin>
@@ -152,6 +153,42 @@ const FiveGXLiFi = () => {
           coverage by realising a dual-purpose system providing both
           illumination and communication.
         </SectionText>
+        <LandscapeImg src="/images/5G X LiFi/Images/lifi diagram.png" />
+        <LandscapeImg src="/images/5G X LiFi/Images/Components-4.jpg" />
+        <SectionText>
+          The modularity of the design provides numerous benefits; optimised
+          space during transportation, easily assembled by the user and easily
+          disassembled at the end of product life.
+        </SectionText>
+        <SectionText>
+          A modular pricing strategy can also be used, where the user can select
+          the number of lamps they require and pay accordingly. Also covering
+          the ability to return parts if there are repairs or hardware updates.
+        </SectionText>
+        <SplitImgGrid portrait>
+          <GridImgThin>
+            <GridImgPortrait src="/images/5G X LiFi/Images/Arrangements-10.jpg" />
+          </GridImgThin>
+          <GridImgThin>
+            <GridImgPortrait src="/images/5G X LiFi/Images/Arrangements-09.jpg" />
+          </GridImgThin>
+        </SplitImgGrid>
+        <SplitImgGrid portrait>
+          <GridImgThin>
+            <GridImgPortrait src="/images/5G X LiFi/Images/Hero-5.jpg" />
+          </GridImgThin>
+          <GridImgThin>
+            <GridImgPortrait src="/images/5G X LiFi/Images/Darker Hero-07.jpg" />
+          </GridImgThin>
+        </SplitImgGrid>
+        <SectionText>
+          By incorporating a lamp, the router becomes an ornament, holding more
+          emotional value. This creates a more intimate relationship between the
+          user and the router. When combined with empowering the user to build,
+          fix and update, this increases the chances that it will be kept for
+          longer.
+        </SectionText>
+        <PortraitImg src="/images/5G X LiFi/Images/Darker Hero-05.jpg" />
       </CentreDiv>
     </Layout>
   );

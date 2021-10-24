@@ -1,21 +1,42 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
+import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { DiCssdeck } from "react-icons/di";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents/indexStyles';
-import { LeftSection, ShortDescriptionText } from './HeroStyles';
+import {
+  HeroTitle,
+  HeroDiv,
+  TitleDiv,
+  ShortDescriptionText,
+  NavLink,
+  HeaderDiv,
+  HeadersDiv,
+  Container,
+} from "./HeroStyles";
 
 const Hero = () => (
-  <>
-    <Section row nopadding>
-      <LeftSection>
-        <SectionTitle main center>
-          Charles Broadway
-        </SectionTitle>
-        <ShortDescriptionText>
-          Industrial Design
-        </ShortDescriptionText>
-      </LeftSection>
-    </Section>
-  </>
+  <Container>
+    <TitleDiv>
+      <HeroTitle>Charles Broadway</HeroTitle>
+    </TitleDiv>
+    <HeadersDiv>
+      <li>
+        <Link href="/work">
+          <NavLink>Work</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>
+    </HeadersDiv>
+  </Container>
 );
 
 export default Hero;
