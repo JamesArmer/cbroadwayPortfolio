@@ -11,7 +11,8 @@ export const Section = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
-  padding-bottom: ${(props) => props.extraPadding ? "106px" : "" };
+  padding-top: ${(props) => props.extraHeaderPadding ? "150px" : ""};
+  padding-bottom: ${(props) => props.extraFooterPadding ? "150px" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;

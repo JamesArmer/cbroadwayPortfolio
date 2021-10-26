@@ -1,17 +1,18 @@
-import React from 'react';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents/indexStyles';
+import React from "react";
+import { SectionText } from "../../styles/GlobalComponents/indexStyles";
+import { SectionAbout } from "./AboutStyles";
 
-const About = () =>  (
-  <Section id="about">
-    <SectionDivider divider />
-    <SectionTitle>About</SectionTitle>
+const About = () => (
+  <SectionAbout id="about">
     <SectionText>
-      Industial designer based in London. <br/><br/>
-      MA Industrial Design, Central Saint Martins - Current <br/>
-      Design and Manufacture, University of Nottingham - First Class <br/><br/>
+      Industial designer based in London. <br />
+      <br />
+      MA Industrial Design, Central Saint Martins - Current <br />
+      Design and Manufacture, University of Nottingham - First Class <br />
+      <br />
       Download CV
     </SectionText>
-  </Section>
+  </SectionAbout>
 );
 
 export default About;

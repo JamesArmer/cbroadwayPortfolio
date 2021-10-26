@@ -1,32 +1,59 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const LinkItem = styled.a`
-	font-size: 18px;
-	line-height: 50px;
-	color: #000000;
-	margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 32px;
   margin-top: 32px;
-	transition: .3s ease;
-	position: relative;
-	left: 0;
+  transition: 0.3s ease;
+  position: relative;
+  left: 0;
   text-align: center;
 
-	&:hover {
-		color: #cdcbcb;
-		left: 4px;
-	}
+  &:hover {
+    color: #cdcbcb;
+    left: 4px;
+  }
 
-	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
-		line-height: 28px;
-		display: flex;
-	}
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+  }
 
-	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
-		line-height: 14px;
-		margin-bottom: 8px;
-		display: flex;
-		align-items: center;
-	}
-`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 8px;
+    line-height: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+`;
+
+export const SectionContact = styled.section`
+  display: ${(props) => (props.grid ? "grid" : "flex")};
+  flex-direction: ${(props) => (props.row ? "row" : "column")};
+  padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
+  margin: auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+  padding-top: 150px;
+  padding-bottom: 155px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+
+    width: calc(100vw - 32px);
+    flex-direction: column;
+  }
+`;

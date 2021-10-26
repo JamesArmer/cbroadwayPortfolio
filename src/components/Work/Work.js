@@ -18,9 +18,7 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section nopadding id="work">
-    <SectionDivider />
-    <SectionTitle main>Work</SectionTitle>
+  <Section id="work">
     <GridContainer>
       {projects.map((p, i) => {
         return (
