@@ -13,7 +13,6 @@ import {
   SectionText,
   SectionTitle,
   SplitImgGrid,
-  GridVideoPortrait,
   GridVideoLandscape,
   PortraitImg,
 } from "../../styles/GlobalComponents/genericWorkStyles";
@@ -24,7 +23,7 @@ const FiveGXLiFi = () => {
       <CentreDiv>
         <LandscapeImg src="/images/5G X LiFi/Images/Hero 2 Friday.jpg" />
         <SectionTitle>5G X LiFi</SectionTitle>
-        <SectionQuote italic>
+        <SectionQuote>
           “Design the router of the future, made possible by 5G” - Three UK
         </SectionQuote>
         <SectionText>

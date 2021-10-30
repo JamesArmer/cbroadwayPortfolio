@@ -63,11 +63,11 @@ export const SectionText = styled.p`
 
 export const SectionQuote = styled.p`
   max-width: 100%;
-  font-size: 20px;
+  font-size: ${(props) => (props.large ? "30px" : "20px")};
   font-style: ${(props) => (props.italic ? "italic" : "")};
   line-height: 50px;
   font-weight: lighter;
-  padding-bottom: ${(props) => (props.noPadding ? "": "2.4rem")};
+  padding-bottom: ${(props) => (props.noPadding ? "" : "2.4rem")};
   color: #000000;
   text-align: center;
 
@@ -85,6 +85,17 @@ export const SectionQuote = styled.p`
   }
 `;
 
+export const ListItem = styled.li`
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+
+  padding-top: ${(props) => (props.first ? "20px" : "")};
+  padding-bottom: ${(props) => (props.last ? "20px" : "")};
+`;
+
 export const LandscapeImg = styled.img`
   width: 100%;
   display: block;
@@ -93,13 +104,13 @@ export const LandscapeImg = styled.img`
 `;
 
 export const PortraitImg = styled.img`
-height: 100%;
-max-height: 800px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-padding-top: 12px;
-padding-bottom: 12px;
+  height: 100%;
+  max-height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
 `;
 
 export const SquareImg = styled.img`
@@ -121,7 +132,18 @@ export const LandscapeVideo = styled.video`
 export const SplitImgGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-template-rows: ${(props) => (props.landscape ? "auto" : props.portrait ? "650px": "400px")};
+  grid-template-rows: ${(props) =>
+    props.landscape ? "auto" : props.portrait ? "650px" : "400px"};
+  grid-gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+`;
+
+export const TripleImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-template-rows: ${(props) =>
+    props.landscape ? "auto" : props.portrait ? "650px" : "400px"};
   grid-gap: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -137,6 +159,10 @@ export const GridImgThin = styled.div`
 
 export const GridImgRegular = styled.div`
   grid-column: span 3 / auto;
+`;
+
+export const GridImgTriple = styled.div`
+  grid-column: span 1 / auto;
 `;
 
 export const GridImgPortrait = styled.img`
