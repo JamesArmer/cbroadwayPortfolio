@@ -33,6 +33,8 @@ export const HeadersDiv = styled.div`
 
   line-height: 80px;
 
+  list-style: none;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }

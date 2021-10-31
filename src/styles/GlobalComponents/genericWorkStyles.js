@@ -114,6 +114,8 @@ export const ListItem = styled.li`
   display: list-item;
   max-width: 100%;
   line-height: 30px;
+
+  padding: ${(props) => (props.extraPadding? "8px" : "")};
 `;
 
 export const LandscapeImg = styled.img`
@@ -177,32 +179,41 @@ export const MultipleImgGrid = styled.div`
   padding-bottom: 12px;
 `;
 
+export const PortraitImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 600px;
+  grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
+  padding-top: 12px;
+  padding-bottom: 12px;
+`;
+
 export const GridImgFullWidth = styled.div`
   grid-column: span 12 / auto;
 `;
 
 export const GridImgExtraWide = styled.div`
-  display: flex;
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 6 / auto;
 `;
 
 export const GridImgWide = styled.div`
-  display: flex;
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 4 / auto;
 `;
 
-export const GridImgThin = styled.div`
-  display: flex;
-  grid-column: span 2 / auto;
-`;
-
 export const GridImgRegular = styled.div`
-  display: flex;
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 3 / auto;
 `;
 
+export const GridImgThin = styled.div`
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
+  grid-column: span 2 / auto;
+`;
+
 export const GridImgTriple = styled.div`
-  display: flex;
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 1 / auto;
 `;
 
