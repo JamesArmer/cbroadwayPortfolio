@@ -5,6 +5,7 @@ export const CentreDiv = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+  padding-top: 10px;
 `;
 
 export const SectionTitle = styled.h2`
@@ -45,7 +46,7 @@ export const SectionText = styled.p`
   padding-top: 12px;
   padding-bottom: 12px;
   color: #000000;
-  text-align: justify;
+  text-align: ${(props) => (props.leftAlign ? "left" : "justify")};
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -65,8 +66,9 @@ export const SectionQuote = styled.p`
   max-width: 100%;
   font-size: ${(props) => (props.large ? "30px" : "20px")};
   font-style: ${(props) => (props.italic ? "italic" : "")};
-  line-height: 50px;
+  line-height: 30px;
   font-weight: lighter;
+  padding-top: ${(props) => (props.extraPadding ? "30px" : "")};
   padding-bottom: ${(props) => (props.noPadding ? "" : "2.4rem")};
   color: #000000;
   text-align: center;
@@ -85,15 +87,33 @@ export const SectionQuote = styled.p`
   }
 `;
 
-export const ListItem = styled.li`
-  max-width: 100%;
-  font-size: 12px;
-  line-height: 30px;
-  text-align: center;
-  color: #000000;
+export const OrderedList = styled.ol`
+  display: ordered-list
+  list-style-type: decimal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
 
-  padding-top: ${(props) => (props.first ? "20px" : "")};
-  padding-bottom: ${(props) => (props.last ? "20px" : "")};
+  font-size: ${(props) => (props.small ? "12px" : "20px")};
+  text-align: ${(props) => (props.leftAlign ? "left" : "center")};
+`;
+
+export const UnorderedList = styled.ol`
+  list-style-type: disc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  font-size: ${(props) => (props.small ? "12px" : "20px")};
+  text-align: ${(props) => (props.leftAlign ? "left" : "center")};
+
+  list-style: ${(props) => (props.noStyle ? "none" : "")}
+`;
+
+export const ListItem = styled.li`
+  display: list-item;
+  max-width: 100%;
+  line-height: 30px;
 `;
 
 export const LandscapeImg = styled.img`
@@ -101,6 +121,14 @@ export const LandscapeImg = styled.img`
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
+`;
+
+export const SmallLandscapeImg = styled.img`
+  width: 30%;
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: auto;
 `;
 
 export const PortraitImg = styled.img`
@@ -139,29 +167,42 @@ export const SplitImgGrid = styled.div`
   padding-bottom: 12px;
 `;
 
-export const TripleImgGrid = styled.div`
+export const MultipleImgGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   grid-template-rows: ${(props) =>
     props.landscape ? "auto" : props.portrait ? "650px" : "400px"};
-  grid-gap: 10px;
+  grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 12px;
   padding-bottom: 12px;
 `;
 
+export const GridImgFullWidth = styled.div`
+  grid-column: span 12 / auto;
+`;
+
+export const GridImgExtraWide = styled.div`
+  display: flex;
+  grid-column: span 6 / auto;
+`;
+
 export const GridImgWide = styled.div`
+  display: flex;
   grid-column: span 4 / auto;
 `;
 
 export const GridImgThin = styled.div`
+  display: flex;
   grid-column: span 2 / auto;
 `;
 
 export const GridImgRegular = styled.div`
+  display: flex;
   grid-column: span 3 / auto;
 `;
 
 export const GridImgTriple = styled.div`
+  display: flex;
   grid-column: span 1 / auto;
 `;
 

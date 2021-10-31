@@ -1,28 +1,27 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   overflow: hidden;
-`
+`;
 
 export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding: 3rem;
+  place-items: center;
+  column-gap: 2rem;
+  row-gap: 3rem;
 
-@media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 0;
-}
-
-`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+`;
 export const BlogCard = styled.div`
   border-radius: 10px;
   width: 400px;
@@ -36,15 +35,14 @@ export const TitleContent = styled.div`
   padding-left: 10px;
   z-index: 20;
   width: 50%;
-
 `;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1px;
   color: #000000;
-  padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  padding: 0.5rem 0;
+  font-size: ${(props) => (props.title ? "2rem" : "2rem")};
 `;
 
 export const Hr = styled.hr`
@@ -59,12 +57,11 @@ export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
   color: #dce3e7;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
 `;
-
 
 export const CardInfo = styled.p`
   width: 100%;
@@ -74,11 +71,9 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
+    padding: 0.3rem;
+  }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -89,38 +84,35 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
+  color: #d4c0c0;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  background: #6b3030;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #801414;
+  }
 `;
 
 export const HorizontalDiv = styled.div`
-display: flex;
-overflow: hidden;
-width: 100%;
-
-`
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+`;
 
 export const TagDiv = styled.div`
-text-align: left;
-padding-right: 2.5rem;
-z-index: 20;
-padding-top: 1rem;
-width: 50%;
+  text-align: left;
+  padding-right: 2.5rem;
+  z-index: 20;
+  padding-top: 1rem;
+  width: 50%;
 
+  list-style: none;
 `;
 
 export const Tag = styled.li`
-color: #5b5b5b;
-font-size: 2rem;
-text-align: right;
-
-
-`
+  color: #5b5b5b;
+  font-size: 2rem;
+  text-align: right;
+`;

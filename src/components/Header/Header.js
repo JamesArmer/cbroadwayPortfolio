@@ -38,17 +38,6 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons
-        href="https://www.linkedin.com/in/charles-broadway-ba212a115/"
-        target="_blank"
-      >
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/cbroadway_/" target="_blank">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-    </Div3>
   </Container>
 );
 

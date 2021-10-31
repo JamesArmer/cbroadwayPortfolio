@@ -36,6 +36,8 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
+
+  list-style: none;
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
