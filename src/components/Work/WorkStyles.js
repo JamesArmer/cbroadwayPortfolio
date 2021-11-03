@@ -32,7 +32,6 @@ export const BlogCard = styled.div`
 
 export const TitleContent = styled.div`
   text-align: left;
-  padding-left: 10px;
   z-index: 20;
   width: 50%;
 `;
@@ -41,7 +40,6 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1px;
   color: #000000;
-  padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "2rem" : "2rem")};
 `;
 
@@ -103,9 +101,6 @@ export const HorizontalDiv = styled.div`
 
 export const TagDiv = styled.div`
   text-align: left;
-  padding-right: 2.5rem;
-  z-index: 20;
-  padding-top: 1rem;
   width: 50%;
 
   list-style: none;

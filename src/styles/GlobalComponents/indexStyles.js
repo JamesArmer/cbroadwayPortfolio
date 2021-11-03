@@ -59,10 +59,10 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 100%;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 50px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  padding-bottom: ${(props) => props.noPadding ? '0px' : '3.6rem'};
   color: #000000;
   text-align: center;
 

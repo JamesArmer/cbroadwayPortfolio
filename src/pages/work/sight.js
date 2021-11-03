@@ -49,12 +49,10 @@ const Sight = () => {
           aerosol suppressant.
         </SectionText>
         <LandscapeVideo
-          poster="/images/5G X LiFi/Video/Interim Video Thumbnail.png"
           controls
         >
           <source
-            src="/images/5G X LiFi/Video/5G X LiFi interim video.mp4"
-            type="video/mp4"
+            src="/images/Sight/Videos/Arduino Vid for website.mov"
           />
         </LandscapeVideo>
         <LandscapeImg src="/images/Sight/Images/Sketch work.png" />

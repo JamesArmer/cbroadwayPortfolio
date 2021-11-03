@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const LinkItem = styled.a`
-  font-size: 18px;
-  line-height: 50px;
+  font-size: 16px;
+  line-height: 20px;
   color: #000000;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin-bottom: 0px;
+  padding-top: 50px;
   transition: 0.3s ease;
   position: relative;
   left: 0;

@@ -1,16 +1,19 @@
 import React from "react";
 import { SectionText } from "../../styles/GlobalComponents/indexStyles";
-import { SectionAbout } from "./AboutStyles";
+import { CVLink, SectionAbout } from "./AboutStyles";
 
 const About = () => (
   <SectionAbout id="about">
-    <SectionText>
+    <SectionText noPadding>
       Industial designer based in London. <br />
       <br />
       MA Industrial Design, Central Saint Martins - Current <br />
-      Design and Manufacture, University of Nottingham - First Class <br />
-      <br />
-      Download CV
+      BEng(Hons) Product Design & Manufacture, University of Nottingham - First Class <br />
+    </SectionText>
+    <SectionText small noPadding>
+      <CVLink href="/images/C Broadway CV.pdf" download>
+        Download CV
+      </CVLink>
     </SectionText>
   </SectionAbout>
 );

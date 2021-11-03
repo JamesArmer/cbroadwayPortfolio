@@ -18,10 +18,11 @@ export const Container = styled.div`
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 2 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
+  padding-top: 8px;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -31,8 +32,8 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   padding-top: 0.75rem;
-  padding-left: 300px;
-  grid-gap: 150px;
+  padding-left: 770px;
+  grid-gap: 140px;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -126,6 +127,7 @@ export const SocialIcons = styled.a`
 `;
 
 export const LogoSpan = styled.span`
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: normal;
+  letter-spacing: 1px;
 `;

@@ -10,7 +10,7 @@ export const CentreDiv = styled.div`
 
 export const SectionTitle = styled.h2`
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 40px;
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   background: #000000;
   -webkit-background-clip: text;
@@ -40,7 +40,7 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SectionText = styled.p`
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 300;
   padding-top: 12px;
@@ -64,7 +64,7 @@ export const SectionText = styled.p`
 
 export const SectionQuote = styled.p`
   max-width: 100%;
-  font-size: ${(props) => (props.large ? "30px" : "20px")};
+  font-size: ${(props) => (props.large ? "20px" : "18px")};
   font-style: ${(props) => (props.italic ? "italic" : "")};
   line-height: 30px;
   font-weight: lighter;
@@ -94,7 +94,7 @@ export const OrderedList = styled.ol`
   padding-bottom: 20px;
   padding-left: 30px;
 
-  font-size: ${(props) => (props.small ? "12px" : "20px")};
+  font-size: ${(props) => (props.small ? "12px" : "14px")};
   text-align: ${(props) => (props.leftAlign ? "left" : "center")};
 `;
 
@@ -104,10 +104,10 @@ export const UnorderedList = styled.ol`
   padding-bottom: 20px;
   padding-left: 20px;
 
-  font-size: ${(props) => (props.small ? "12px" : "20px")};
+  font-size: ${(props) => (props.small ? "12px" : "14px")};
   text-align: ${(props) => (props.leftAlign ? "left" : "center")};
 
-  list-style: ${(props) => (props.noStyle ? "none" : "")}
+  list-style: ${(props) => (props.noStyle ? "none" : "")};
 `;
 
 export const ListItem = styled.li`
@@ -115,7 +115,7 @@ export const ListItem = styled.li`
   max-width: 100%;
   line-height: 30px;
 
-  padding: ${(props) => (props.extraPadding? "8px" : "")};
+  padding: ${(props) => (props.extraPadding ? "8px" : "")};
 `;
 
 export const LandscapeImg = styled.img`

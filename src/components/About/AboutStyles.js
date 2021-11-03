@@ -26,3 +26,13 @@ export const SectionAbout = styled.section`
     flex-direction: column;
   }
 `;
+
+export const CVLink = styled.a`
+color: #000000;
+transition: 0.4s ease;
+&:hover {
+  color: #cdcbcb;
+  opacity: 1;
+  cursor: pointer;
+}
+`;
