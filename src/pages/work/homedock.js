@@ -9,6 +9,7 @@ import {
   GridImgTriple,
   GridImgWide,
   LandscapeImg,
+  ListDiv,
   ListItem,
   MultipleImgGrid,
   OrderedList,
@@ -116,20 +117,22 @@ const HomeDock = () => {
         <SectionQuote large noPadding>
           Components
         </SectionQuote>
-        <OrderedList leftAlign>
-          <ListItem>Plug Body</ListItem>
-          <ListItem>Plug Cap</ListItem>
-          <ListItem>Plug Magnet</ListItem>
-          <ListItem>Accoya Timber Slats</ListItem>
-          <ListItem>Aluminium Casing</ListItem>
-          <ListItem>5m Tethered Cable</ListItem>
-          <ListItem>LED & Bracket</ListItem>
-          <ListItem>IP65 Rated Polycarbonate Door</ListItem>
-          <ListItem>Internal Cables & IP65 Rated Glands</ListItem>
-          <ListItem>IP65 Rated Polycarbonate Component Housing</ListItem>
-          <ListItem>Magnet</ListItem>
-          <ListItem>Aluminium Back Casing</ListItem>
-        </OrderedList>
+        <ListDiv wide>
+          <OrderedList leftAlign>
+            <ListItem>Plug Body</ListItem>
+            <ListItem>Plug Cap</ListItem>
+            <ListItem>Plug Magnet</ListItem>
+            <ListItem>Accoya Timber Slats</ListItem>
+            <ListItem>Aluminium Casing</ListItem>
+            <ListItem>5m Tethered Cable</ListItem>
+            <ListItem>LED & Bracket</ListItem>
+            <ListItem>IP65 Rated Polycarbonate Door</ListItem>
+            <ListItem>Internal Cables & IP65 Rated Glands</ListItem>
+            <ListItem>IP65 Rated Polycarbonate Component Housing</ListItem>
+            <ListItem>Magnet</ListItem>
+            <ListItem>Aluminium Back Casing</ListItem>
+          </OrderedList>
+        </ListDiv>
         <SplitImgGrid>
           <GridImgWide>
             <GridImgLandscape src="/images/Home Dock/Images/Logo close up.png" />
@@ -149,45 +152,49 @@ const HomeDock = () => {
         <SectionQuote large extraPadding>
           Features
         </SectionQuote>
-        <UnorderedList noStyle>
-          <ListItem>Engraved logo</ListItem>
-          <ListItem>Notification light</ListItem>
-          <ListItem>Access to RCBO</ListItem>
-          <ListItem>Venting</ListItem>
-          <ListItem>Magnetic plug hold</ListItem>
-          <ListItem>Mobile connectivity</ListItem>
-          <ListItem>5m tethered cable</ListItem>
-          <ListItem>600 x 150 x 110mm</ListItem>
-        </UnorderedList>
-        <SectionQuote large extraPadding>
-          Sustainability
-        </SectionQuote>
-        <OrderedList leftAlign>
-          Key Strategies used:
-          <br />
-          <br />
-          <ListItem extraPadding>
-            Reduce amount of material used and use sustainably sourced materials
-            which can be recycled where possible
-          </ListItem>
-          <ListItem extraPadding>
-            Design for palletisation and minimise wasted space during
-            transportation
-          </ListItem>
-          <ListItem extraPadding>
-            Design for disassembly and ensure that component finishing allows
-            for end of life recycling
-          </ListItem>
-          <ListItem extraPadding>
-            Design the charger to use as little energy as possible during its
-            life
-          </ListItem>
-          <ListItem extraPadding>
-            Manufacture all components in Europe to reduce the impact of
-            transportation. Both the intended market and Accoya manufacturing is
-            in Europe
-          </ListItem>
-        </OrderedList>
+        <ListDiv>
+          <UnorderedList noStyle leftAlign>
+            <ListItem>Engraved logo</ListItem>
+            <ListItem>Notification light</ListItem>
+            <ListItem>Access to RCBO</ListItem>
+            <ListItem>Venting</ListItem>
+            <ListItem>Magnetic plug hold</ListItem>
+            <ListItem>Mobile connectivity</ListItem>
+            <ListItem>5m tethered cable</ListItem>
+            <ListItem>600 x 150 x 110mm</ListItem>
+          </UnorderedList>
+        </ListDiv>
+        <ListDiv wide>
+          <SectionQuote large extraPadding>
+            Sustainability
+          </SectionQuote>
+          <OrderedList leftAlign>
+            Key Strategies used:
+            <br />
+            <br />
+            <ListItem extraPadding>
+              Reduce amount of material used and use sustainably sourced
+              materials which can be recycled where possible
+            </ListItem>
+            <ListItem extraPadding>
+              Design for palletisation and minimise wasted space during
+              transportation
+            </ListItem>
+            <ListItem extraPadding>
+              Design for disassembly and ensure that component finishing allows
+              for end of life recycling
+            </ListItem>
+            <ListItem extraPadding>
+              Design the charger to use as little energy as possible during its
+              life
+            </ListItem>
+            <ListItem extraPadding>
+              Manufacture all components in Europe to reduce the impact of
+              transportation. Both the intended market and Accoya manufacturing
+              is in Europe
+            </ListItem>
+          </OrderedList>
+        </ListDiv>
         <LandscapeImg src="/images/Home Dock/Images/sustainability curve.png" />
       </CentreDiv>
     </Layout>

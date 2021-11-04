@@ -1,15 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import {
   Container,
   Div1,
   Div2,
-  Div3,
   LogoSpan,
   NavLink,
-  SocialIcons,
 } from "./HeaderStyles";
 
 const Header = () => (

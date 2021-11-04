@@ -8,6 +8,11 @@ export const CentreDiv = styled.div`
   padding-top: 10px;
 `;
 
+export const ListDiv = styled.div`
+  width: ${(props) => (props.wide ? "40%" : "30%")};
+  margin: auto;
+`;
+
 export const SectionTitle = styled.h2`
   font-weight: lighter;
   font-size: 40px;

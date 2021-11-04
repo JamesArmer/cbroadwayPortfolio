@@ -17,6 +17,7 @@ import {
   MultipleImgGrid,
   UnorderedList,
   OrderedList,
+  ListDiv,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const Sight = () => {
@@ -48,12 +49,8 @@ const Sight = () => {
           suppression resulted in the use of flame detector and a replaceable
           aerosol suppressant.
         </SectionText>
-        <LandscapeVideo
-          controls
-        >
-          <source
-            src="/images/Sight/Videos/Arduino Vid for website.mov"
-          />
+        <LandscapeVideo controls>
+          <source src="/images/Sight/Videos/Arduino Vid for website.mov" />
         </LandscapeVideo>
         <LandscapeImg src="/images/Sight/Images/Sketch work.png" />
         <MultipleImgGrid landscape>
@@ -102,33 +99,37 @@ const Sight = () => {
         <SectionQuote noPadding extraPadding large>
           Features
         </SectionQuote>
-        <UnorderedList noStyle>
-          <ListItem first>Dual IR flame detector</ListItem>
-          <ListItem>Temperature sensor</ListItem>
-          <ListItem>Alarms</ListItem>
-          <ListItem>Warning lights</ListItem>
-          <ListItem>Replaceable battery</ListItem>
-          <ListItem>Electrically actuated</ListItem>
-          <ListItem>450ml Potassium acetate canister</ListItem>
-          <ListItem last>Vacuum insulated flask</ListItem>
-        </UnorderedList>
+        <ListDiv>
+          <UnorderedList noStyle leftAlign>
+            <ListItem first>Dual IR flame detector</ListItem>
+            <ListItem>Temperature sensor</ListItem>
+            <ListItem>Alarms</ListItem>
+            <ListItem>Warning lights</ListItem>
+            <ListItem>Replaceable battery</ListItem>
+            <ListItem>Electrically actuated</ListItem>
+            <ListItem>450ml Potassium acetate canister</ListItem>
+            <ListItem last>Vacuum insulated flask</ListItem>
+          </UnorderedList>
+        </ListDiv>
         <LandscapeImg src="/images/Sight/Images/Opened canister.png" />
         <LandscapeImg src="/images/Sight/Images/Colourways.png" />
         <LandscapeImg src="/images/Sight/Images/Exploded.png" />
         <SectionQuote noPadding large>
           Components
         </SectionQuote>
-        <OrderedList>
-          <ListItem first>Frame</ListItem>
-          <ListItem>Insulated Canister Flask</ListItem>
-          <ListItem>450ml Potassium Acetate Canister</ListItem>
-          <ListItem>Silicone O Ring</ListItem>
-          <ListItem>Main Component Housing</ListItem>
-          <ListItem>PC LED Covers</ListItem>
-          <ListItem>Control Buttons</ListItem>
-          <ListItem>Internal Components</ListItem>
-          <ListItem last>Component Housing Lid</ListItem>
-        </OrderedList>
+        <ListDiv>
+          <OrderedList leftAlign>
+            <ListItem first>Frame</ListItem>
+            <ListItem>Insulated Canister Flask</ListItem>
+            <ListItem>450ml Potassium Acetate Canister</ListItem>
+            <ListItem>Silicone O Ring</ListItem>
+            <ListItem>Main Component Housing</ListItem>
+            <ListItem>PC LED Covers</ListItem>
+            <ListItem>Control Buttons</ListItem>
+            <ListItem>Internal Components</ListItem>
+            <ListItem last>Component Housing Lid</ListItem>
+          </OrderedList>
+        </ListDiv>
         <LandscapeImg src="/images/Sight/Images/orthographics.png" />
       </CentreDiv>
     </Layout>

@@ -11,9 +11,7 @@ import {
   HorizontalDiv,
 } from "./WorkStyles";
 import {
-  Section,
-  SectionDivider,
-  SectionTitle,
+  Section
 } from "../../styles/GlobalComponents/indexStyles";
 import { projects } from "../../constants/constants";
 
