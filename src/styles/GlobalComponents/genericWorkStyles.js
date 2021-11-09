@@ -48,8 +48,8 @@ export const SectionText = styled.p`
   font-size: 16px;
   line-height: 25px;
   font-weight: 300;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: ${(props) => (props.extraTopPadding ? "36px" : "24px")};
+  padding-bottom: ${(props) => (props.extraBottomPadding ? "36px" : "24px")};
   color: #000000;
   text-align: ${(props) => (props.leftAlign ? "left" : "justify")};
 
@@ -126,8 +126,8 @@ export const ListItem = styled.li`
 export const LandscapeImg = styled.img`
   width: 100%;
   display: block;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 `;
 
 export const SmallLandscapeImg = styled.img`
@@ -170,8 +170,8 @@ export const SplitImgGrid = styled.div`
   grid-template-rows: ${(props) =>
     props.landscape ? "auto" : props.portrait ? "650px" : "400px"};
   grid-gap: 10px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 `;
 
 export const MultipleImgGrid = styled.div`
@@ -180,8 +180,8 @@ export const MultipleImgGrid = styled.div`
   grid-template-rows: ${(props) =>
     props.landscape ? "auto" : props.portrait ? "650px" : "400px"};
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 `;
 
 export const PortraitImgGrid = styled.div`

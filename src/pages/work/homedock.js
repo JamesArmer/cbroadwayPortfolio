@@ -71,8 +71,7 @@ const HomeDock = () => {
           tested different grip positions and learned that the plug with a
           handle at an angle resulted in a far more comfortable position when
           reaching the waist height and below positions of most sockets on EV’s.
-        </SectionText>
-        <SectionText>
+          <br/><br/>
           Polymer use across the design was refined to key areas to meet
           electrical standards. The plug is injection moulded in two halves,
           sandwiching components like the magnets which hold it onto the side of
@@ -100,7 +99,7 @@ const HomeDock = () => {
         </MultipleImgGrid>
         <LandscapeImg src="/images/Home Dock/Images/plug renders.png" />
         <LandscapeImg src="/images/Home Dock/Images/sketch assembly.png" />
-        <SectionQuote large extraPadding>
+        <SectionQuote large extraPadding noPadding>
           Manufacture
         </SectionQuote>
         <SectionText>

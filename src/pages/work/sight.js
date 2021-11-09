@@ -31,20 +31,18 @@ const Sight = () => {
           Data provided by the UK Home Office highlights that the group and
           situation when there is the greatest risk of fire within the home is
           when the elderly are cooking unasisted.
-        </SectionText>
-        <SectionText>
+          <br/><br/>
           With any fire, early detection and suppression is essential for damage
           reduction. This means that it would be beneficial to use technology
           which is faster than both a smoke detector and a frangible bulb used
           in a sprinkler system.
-        </SectionText>
-        <SectionText>
+          <br/><br/>
           Although effective, existing automated domestic systems are not widely
           adopted because they can be expensive, obtrusive and difficult to
           retrofit. This is where the brief was found.
         </SectionText>
         <LandscapeImg src="/images/Sight/Images/Firemen.png" />
-        <SectionText>
+        <SectionText extraBottomPadding extraTopPadding>
           Research into the fastest technology for fire detection and
           suppression resulted in the use of flame detector and a replaceable
           aerosol suppressant.
@@ -64,7 +62,7 @@ const Sight = () => {
             <GridImgLandscape src="/images/Sight/Images/model in hand.png" />
           </GridImgTriple>
         </MultipleImgGrid>
-        <SectionText>
+        <SectionText extraTopPadding extraBottomPadding>
           The design was reduced to only essential features to ensure it is as
           simple to interact with in high stress situations and is intuitive for
           the target audience.
@@ -90,7 +88,7 @@ const Sight = () => {
             <GridImgLandscape src="/images/Sight/Images/red light.png" />
           </GridImgRegular>
         </SplitImgGrid>
-        <SectionText>
+        <SectionText extraBottomPadding extraTopPadding>
           The refinement of features resulted in an interface consisting of:
           manual actuation button, cancel actuation button, ON/OFF button for
           the alignment spotlight and warning lights and alarm.

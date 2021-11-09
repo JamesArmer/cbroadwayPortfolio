@@ -66,13 +66,12 @@ const Cornetto = () => {
           content is referencing not only the reducing ice coverage of the
           content but also the potentially reduced amount of wildlife as a
           result of the airport construction.
-        </SectionText>
-        <SectionText>
+          <br/><br/>
           The box containing the Cornetto’s has references to the Australian
           flag and displays the limited-edition ice creams as well as a melting
           Antarctica icon which states “more coverage, less ice cream”.
         </SectionText>
-        <SectionQuote large extraPadding>
+        <SectionQuote large extraPadding noPadding>
           Packaging
         </SectionQuote>
         <SectionText>

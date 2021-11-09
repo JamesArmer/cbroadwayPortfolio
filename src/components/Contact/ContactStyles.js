@@ -42,7 +42,7 @@ export const SectionContact = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
-  padding-top: 150px;
+  padding-top: 180px;
   padding-bottom: 155px;
 
   @media ${(props) => props.theme.breakpoints.md} {
