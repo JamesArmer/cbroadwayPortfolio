@@ -16,11 +16,11 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section id="work">
+  <Section id="work" work>
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
+          <BlogCard key={i} gridId={p.gridId}>
             <a href={p.visit}>
               <Img src={p.image} />
               <HorizontalDiv>

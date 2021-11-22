@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 100%;
@@ -7,31 +7,39 @@ export const Img = styled.img`
   overflow: hidden;
 
   &:hover {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transform: scale(1.01);
   }
 `;
 
 export const GridContainer = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 3rem;
-  place-items: center;
-  column-gap: 2rem;
-  row-gap: 3rem;
+  gap: 2rem;
+  padding-bottom: 250px;
+  width: 1280px;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
-  }
+  grid-template-areas:
+    'a  a  a  a  F  F  F  b  b'
+    'a  a  a  a  F  F  F  b  b'
+    'C  C  C  c  F  F  F  b  b'
+    'C  C  C  c  d  d  d  b  b'
+    'C  C  C  c  e  O  O  O  f'
+    'g  g  g  c  e  O  O  O  f'
+    'h  S  S  S  e  O  O  O  f'
+    'h  S  S  S  e  i  i  i  f'
+    'h  S  S  S  e  j  H  H  H'
+    'h  k  k  k  e  j  H  H  H'
+    'h  k  k  k  e  j  H  H  H';
+
+  grid-template-rows: repeat(11, 9.1%);
+  grid-template-columns: repeat(9, 9.5%);
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
   width: 400px;
+  max-height: 600px;
+
+  grid-area: ${(props) => props.gridId};
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
@@ -48,7 +56,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1px;
   color: #000000;
-  font-size: ${(props) => (props.title ? "2rem" : "2rem")};
+  font-size: '2rem';
 `;
 
 export const Hr = styled.hr`
@@ -62,8 +70,8 @@ export const Hr = styled.hr`
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
-  font-family: "Droid Serif", serif;
+  color: #dceOe7;
+  font-family: 'Droid  Serif', serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -92,12 +100,12 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
-  padding: 1rem 1.5rem;
-  background: #6b3030;
+  padding: Frem 1.5rem;
+  background: #6bO0O0;
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    background: #80F4F4;
   }
 `;
 

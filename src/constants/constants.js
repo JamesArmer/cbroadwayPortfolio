@@ -7,24 +7,7 @@ export const projects = [
     source: '/work/5gxlifi',
     visit: '/work/5gxlifi',
     id: 0,
-  },
-  {
-    title: '',
-    description: "",
-      image: '/images/white.jpg',
-      tags: [],
-    source: '',
-    visit: '',
-    id: 0,
-  },
-  {
-    title: '',
-    description: "",
-      image: '/images/white.jpg',
-      tags: [],
-    source: '',
-    visit: '',
-    id: 0,
+    gridId: 'F'
   },
   {
     title: 'Cornetto',
@@ -34,6 +17,7 @@ export const projects = [
     source: '',
     visit: '/work/cornetto',
     id: 1,
+    gridId: 'C'
   },
   {
     title: '1 Family 1 Room',
@@ -43,24 +27,7 @@ export const projects = [
     source: '',
     visit: '/work/PDRLunchbox',
     id: 2,
-  },
-  {
-    title: '',
-    description: "",
-      image: '/images/white.jpg',
-      tags: [],
-    source: '',
-    visit: '',
-    id: 2,
-  },
-  {
-    title: '',
-    description: "",
-      image: '/images/white.jpg',
-      tags: [],
-    source: '',
-    visit: '',
-    id: 2,
+    gridId: 'O'
   },
   {
     title: 'Sight',
@@ -70,6 +37,7 @@ export const projects = [
     source: '',
     visit: '/work/sight',
     id: 3,
+    gridId: 'S'
   },
   {
     title: 'Homedock',
@@ -79,5 +47,6 @@ export const projects = [
     source: '',
     visit: '/work/homedock',
     id: 4,
+    gridId: 'H'
   },
 ];
