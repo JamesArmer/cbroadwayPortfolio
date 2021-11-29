@@ -1,11 +1,11 @@
 import Work from '../components/Work/Work';
-import { Layout } from '../layout/Layout';
+import { WorkLayout } from '../layout/WorkLayout';
 
 const WorkPage = () => {
   return (
-    <Layout>
+    <WorkLayout>
       <Work />
-    </Layout>
+    </WorkLayout>
   );
 };
 

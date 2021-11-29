@@ -15,29 +15,35 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   gap: 2rem;
+  padding-top: 50px;
   padding-bottom: 250px;
-  width: 1280px;
+  max-width: 1400px;
 
   grid-template-areas:
-    'a  a  a  a  F  F  F  b  b'
-    'a  a  a  a  F  F  F  b  b'
-    'C  C  C  c  F  F  F  b  b'
-    'C  C  C  c  d  d  d  b  b'
-    'C  C  C  c  e  O  O  O  f'
-    'g  g  g  c  e  O  O  O  f'
-    'h  S  S  S  e  O  O  O  f'
-    'h  S  S  S  e  i  i  i  f'
-    'h  S  S  S  e  j  H  H  H'
-    'h  k  k  k  e  j  H  H  H'
-    'h  k  k  k  e  j  H  H  H';
+    "a a a a a a A A A A b b b b"
+    "a a a a a a A A A A b b b b"
+    "a a a a a a A A A A b b b b"
+    "B B B B c c A A A A b b b b"
+    "B B B B d d d d d d d d d d"
+    "B B B B d d d d d d d d d d"
+    "B B B B e e e e e C C C C f"
+    "g g g g g g g g g C C C C f"
+    "g g g g g g g g g C C C C f"
+    "h h h D D D D i i C C C C f"
+    "h h h D D D D j j j j j j j"
+    "h h h D D D D j j j j j j j"
+    "h h h D D D D k k k E E E E"
+    "l l l l l l l l l l E E E E"
+    "l l l l l l l l l l E E E E"
+    "l l l l l l l l l l E E E E";
 
-  grid-template-rows: repeat(11, 9.1%);
-  grid-template-columns: repeat(9, 9.5%);
+  grid-template-rows: repeat(16, 6.1%);
+  grid-template-columns: repeat(14, 5.6%);
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
-  width: 400px;
-  max-height: 600px;
+  width: 350px;
+  max-height: 450px;
 
   grid-area: ${(props) => props.gridId};
 

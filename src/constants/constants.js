@@ -7,7 +7,7 @@ export const projects = [
     source: '/work/5gxlifi',
     visit: '/work/5gxlifi',
     id: 0,
-    gridId: 'F'
+    gridId: 'A'
   },
   {
     title: 'Cornetto',
@@ -17,7 +17,7 @@ export const projects = [
     source: '',
     visit: '/work/cornetto',
     id: 1,
-    gridId: 'C'
+    gridId: 'B'
   },
   {
     title: '1 Family 1 Room',
@@ -27,7 +27,7 @@ export const projects = [
     source: '',
     visit: '/work/PDRLunchbox',
     id: 2,
-    gridId: 'O'
+    gridId: 'C'
   },
   {
     title: 'Sight',
@@ -37,7 +37,7 @@ export const projects = [
     source: '',
     visit: '/work/sight',
     id: 3,
-    gridId: 'S'
+    gridId: 'D'
   },
   {
     title: 'Homedock',
@@ -47,6 +47,6 @@ export const projects = [
     source: '',
     visit: '/work/homedock',
     id: 4,
-    gridId: 'H'
+    gridId: 'E'
   },
 ];
