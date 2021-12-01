@@ -1,12 +1,10 @@
-import React from 'react';
-import { AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { CompanyContainer, FooterWrapper, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
-import { SectionDivider } from '../../styles/GlobalComponents/indexStyles';
+import React from "react";
+import { FooterText, FooterWrapper } from "./FooterStyles";
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <SectionDivider />
+      <FooterText>© 2021 Charles Broadway. All rights reserved.</FooterText>
     </FooterWrapper>
   );
 };

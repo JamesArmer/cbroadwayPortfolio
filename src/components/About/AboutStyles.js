@@ -12,7 +12,6 @@ export const SectionAbout = styled.section`
   grid-template-columns: 1fr 1fr;
 
   padding-top: 160px;
-  padding-bottom: 80px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;

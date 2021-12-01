@@ -6,9 +6,11 @@ export const Container = styled.div`
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
+
   padding: 1rem;
   padding-top: 2rem;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1280px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
