@@ -24,7 +24,7 @@ const Sight = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Context Hero.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Context hero.png" />
         <SectionTitle>SIGHT</SectionTitle>
         <SectionQuote>Increasing independence within the home.</SectionQuote>
         <SectionText>
@@ -111,7 +111,7 @@ const Sight = () => {
         </ListDiv>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Opened canister.png" />
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Colourways.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Exploded.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/exploded.png" />
         <SectionQuote noPadding large>
           Components
         </SectionQuote>

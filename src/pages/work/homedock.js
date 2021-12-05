@@ -79,7 +79,7 @@ const HomeDock = () => {
         </SectionText>
         <MultipleImgGrid landscape>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Plug model 1.png" />
           </GridImgWide>
           <GridImgWide>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 2.png" />
@@ -97,8 +97,8 @@ const HomeDock = () => {
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 6.png" />
           </GridImgWide>
         </MultipleImgGrid>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/plug renders.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/sketch assembly.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Plug renders.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketch assembly.png" />
         <SectionQuote large extraPadding noPadding>
           Manufacture
         </SectionQuote>
