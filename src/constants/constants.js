@@ -2,7 +2,7 @@ export const projects = [
   {
     title: '5G X LiFi',
     description: "",
-      image: '/images/5G X LiFi/Images/Darker Hero-05.jpg',
+      image: 'https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-05.jpg',
       tags: ['Product'],
     source: '/work/5gxlifi',
     visit: '/work/5gxlifi',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Cornetto',
     description:"",
-    image: '/images/Cornetto/Images/Antarctic Icon.png',
+    image: 'https://cbroadwayportfolio.azureedge.net/cornetto/Antarctic Icon.png',
     tags: ['Branding'],
     source: '',
     visit: '/work/cornetto',
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: '1 Family 1 Room',
     description: "",
-      image: '/images/PDR Lunchbox/Images/PDR Lunchbox-16.jpg',
+      image: 'https://cbroadwayportfolio.azureedge.net/pdrlunchbox/PDR Lunchbox-16.jpg',
       tags: ['Empathy'],
     source: '',
     visit: '/work/PDRLunchbox',
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: 'Sight',
     description: "",
-    image: '/images/Sight/Images/Buttons.png',
+    image: 'https://cbroadwayportfolio.azureedge.net/sight/Buttons.png',
     tags: ['Product'],
     source: '',
     visit: '/work/sight',
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'Homedock',
     description: "",
-    image: '/images/Home Dock/Images/Hero.png',
+    image: 'https://cbroadwayportfolio.azureedge.net/homedock/Hero.png',
     tags: ['Product'],
     source: '',
     visit: '/work/homedock',

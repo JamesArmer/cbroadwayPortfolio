@@ -63,84 +63,84 @@ const PDRLunchbox = () => {
           memories of the residents. The cutlery is attached to either side of
           the tray to be restrictive, much like the four walls of a 18m2 home.
         </SectionText>
-        <LandscapeImg src="/images/PDR Lunchbox/Images/Sketches.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/Sketches.png" />
         <MultipleImgGrid landscape noGridGap>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 2.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 3.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 4.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 5.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 5.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/mini model 6.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/mini model 6.png" />
           </GridImgExtraWide>
         </MultipleImgGrid>
         <MultipleImgGrid landscape noGridGap>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.2.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.3.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.4.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.5.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.5.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 2.6.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 2.6.png" />
           </GridImgExtraWide>
         </MultipleImgGrid>
         <MultipleImgGrid landscape noGridGap>
         <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 3.1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 3.1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 3.2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 3.2.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 3.3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 3.3.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 3.4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 3.4.png" />
           </GridImgExtraWide>
         </MultipleImgGrid>
         <MultipleImgGrid landscape noGridGap>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.2.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.3.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.4.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.5.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.5.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/PDR Lunchbox/Images/model 4.6.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 4.6.png" />
           </GridImgExtraWide>
         </MultipleImgGrid>
-        <PortraitImg src="/images/PDR Lunchbox/Images/PDR Lunchbox-16.jpg" />
-        <LandscapeImg src="/images/PDR Lunchbox/Images/PDR Lunchbox-06.jpg" />
-        <PortraitImg src="/images/PDR Lunchbox/Images/camera setup.png" />
+        <PortraitImg src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/PDR Lunchbox-16.jpg" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/PDR Lunchbox-06.jpg" />
+        <PortraitImg src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/camera setup.png" />
       </CentreDiv>
     </Layout>
   );

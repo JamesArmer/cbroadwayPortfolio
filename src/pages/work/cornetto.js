@@ -21,8 +21,8 @@ const Cornetto = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="/images/Cornetto/Images/Larger icon.png" />
-        <SmallLandscapeImg src="/images/Cornetto/Images/designbridge and guardian logo.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Larger icon.png" />
+        <SmallLandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/designbridge and guardian logo.png" />
         <SectionQuote>
           Deliver a brand-led, creative response to an article from the New
           Year’s Day edition of The Guardian. - Design Bridge
@@ -51,7 +51,7 @@ const Cornetto = () => {
           </ListItem>
           <ListItem>Requiring about 100 ice breaker voyages</ListItem>
         </UnorderedList>
-        <LandscapeImg src="/images/Cornetto/Images/Cornetto box.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Cornetto box.png" />
         <SectionText>
           I wanted to design a product and pack that, together would highlight
           these points. The result of the limited-edition product is a lamington
@@ -96,41 +96,41 @@ const Cornetto = () => {
           This tearing motion also creates a split in the heart and the
           separation of the penguin colony.
         </SectionText>
-        <LandscapeImg src="/images/Cornetto/Images/Paper wrapper test.png" />
-        <LandscapeImg src="/images/Cornetto/Images/Wrapper design.png" />
-        <LandscapeImg src="/images/Cornetto/Images/cornetto in hand.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Paper wrapper test.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Wrapper design.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/cornetto in hand.png" />
         <MultipleImgGrid landscape noGridGap>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 2.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 3.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 4.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 5.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 5.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 6.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 6.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 7.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 7.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
-            <GridImgLandscape src="/images/Cornetto/Images/process 8.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 8.png" />
           </GridImgExtraWide>
           <GridImgFullWidth>
-            <GridImgLandscape src="/images/Cornetto/Images/process 9.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/cornetto/process 9.png" />
           </GridImgFullWidth>
         </MultipleImgGrid>
         <SectionQuote large extraPadding>Advertising</SectionQuote>
-        <LandscapeImg src="/images/Cornetto/Images/Messy advert.png" />
-        <LandscapeImg src="/images/Cornetto/Images/Just one advert.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Messy advert.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/cornetto/Just one advert.png" />
       </CentreDiv>
     </Layout>
   );

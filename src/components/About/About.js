@@ -11,7 +11,7 @@ const About = () => (
       BEng(Hons) Product Design & Manufacture, University of Nottingham - First Class <br />
     </SectionText>
     <SectionText small noPadding>
-      <CVLink href="/images/C Broadway CV.pdf" download>
+      <CVLink href="https://cbroadwayportfolio.azureedge.net/documents/C Broadway CV.pdf" download>
         Download CV
       </CVLink>
     </SectionText>
