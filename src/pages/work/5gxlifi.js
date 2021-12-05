@@ -21,7 +21,7 @@ const FiveGXLiFi = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/private/Hero 2 Friday.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/public/Hero 2 Friday.png" />
         <SectionTitle>5G X LiFi</SectionTitle>
         <SectionQuote>
           “Design the router of the future, made possible by 5G” - Three UK
