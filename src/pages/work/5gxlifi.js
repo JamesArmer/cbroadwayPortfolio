@@ -15,7 +15,7 @@ import {
   SplitImgGrid,
   GridVideoLandscape,
   PortraitImg,
-  UnevenImgGrid,
+  Uneven5gImgGrid,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const FiveGXLiFi = () => {
