@@ -174,6 +174,24 @@ export const SplitImgGrid = styled.div`
   padding-bottom: 18px;
 `;
 
+export const Uneven5gImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 131.5px);
+  grid-template-rows: 410px;
+  grid-gap: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+`;
+
+export const UnevenSightImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 119px);
+  grid-template-rows: 443px;
+  grid-gap: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+`;
+
 export const MultipleImgGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
@@ -186,8 +204,8 @@ export const MultipleImgGrid = styled.div`
 
 export const PortraitImgGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-auto-rows: 600px;
+  grid-template-columns: repeat(auto-fit, 115px);
+  grid-auto-rows: 603px;
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 12px;
   padding-bottom: 12px;

@@ -62,7 +62,7 @@ const HomeDock = () => {
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concepts 1.png" />
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concept 2.png" />
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketching 2.png" />
-        <SectionQuote large extraPadding>
+        <SectionQuote large extraPadding noPadding>
           Plug
         </SectionQuote>
         <SectionText>

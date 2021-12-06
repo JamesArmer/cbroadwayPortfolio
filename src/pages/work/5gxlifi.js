@@ -15,6 +15,7 @@ import {
   SplitImgGrid,
   GridVideoLandscape,
   PortraitImg,
+  UnevenImgGrid,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const FiveGXLiFi = () => {
@@ -45,14 +46,14 @@ const FiveGXLiFi = () => {
           birds.
         </SectionText>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird Sketches.png" />
-        <SplitImgGrid>
+        <Uneven5gImgGrid>
           <GridImgThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp Close up-1.jpg" />
           </GridImgThin>
           <GridImgWide>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Birds on wire.png" />
           </GridImgWide>
-        </SplitImgGrid>
+        </Uneven5gImgGrid>
         <SectionText>
           An initial model was made to highlight areas for development in the
           design and to help better understand the interactions users would have

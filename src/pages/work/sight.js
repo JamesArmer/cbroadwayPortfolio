@@ -18,6 +18,8 @@ import {
   UnorderedList,
   OrderedList,
   ListDiv,
+  UnevenImgGrid,
+  UnevenSightImgGrid,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const Sight = () => {
@@ -68,14 +70,14 @@ const Sight = () => {
           the target audience.
         </SectionText>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Installation.png" />
-        <SplitImgGrid>
-          <GridImgThin>
+        <UnevenSightImgGrid>
+          <GridImgRegular>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/Hand adjusting.png" />
-          </GridImgThin>
+          </GridImgRegular>
           <GridImgWide>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/button depressed.png" />
           </GridImgWide>
-        </SplitImgGrid>
+        </UnevenSightImgGrid>
         <SectionQuote noPadding large>
           Sequence
         </SectionQuote>
