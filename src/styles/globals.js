@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;
 
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
   }
   h1,h2,h3,h4,h5,h6,button {
