@@ -50,7 +50,7 @@ const Sight = () => {
           aerosol suppressant.
         </SectionText>
         <LandscapeVideo controls>
-          <source src="/images/Sight/Videos/Arduino Vid for website.mov" />
+          <source src="/videos/Sight/Arduino Vid for website.mov" />
         </LandscapeVideo>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Sketch work.png" />
         <MultipleImgGrid landscape>

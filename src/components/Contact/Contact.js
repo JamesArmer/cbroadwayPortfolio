@@ -10,6 +10,9 @@ const Contact = () => (
     <LinkItem href="https://www.instagram.com/cbroadway_/" target="_blank">
       @cbroadway_
     </LinkItem>
+    <LinkItem href="https://www.linkedin.com/in/charles-broadway-ba212a115/" target="_blank">
+      LinkedIn
+    </LinkItem>
   </SectionContact>
 );
 

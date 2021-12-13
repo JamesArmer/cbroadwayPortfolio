@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 export const Container = styled.div`
   display: grid;
@@ -36,7 +37,7 @@ export const HeadersDiv = styled.div`
   list-style: none;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 5;
   }
 `;
 
@@ -47,7 +48,7 @@ export const TitleDiv = styled.div`
   align-content: center;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-column: span 3 / auto;
   }
 `;
 
@@ -57,14 +58,14 @@ export const HeaderDiv = styled.div`
 
 export const HeroTitle = styled.h2`
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
   line-height: 88px;
   width: max-content;
   max-width: 100%;
   white-space: nowrap;
-  background: #000000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+  margin-left: 40px;
 
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
@@ -89,6 +90,7 @@ export const HeroTitle = styled.h2`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
+
   color: #000000;
   transition: 0.4s ease;
   &:hover {
@@ -99,4 +101,7 @@ export const NavLink = styled.a`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
+`;
+
+export const headertitle = styled.li`
 `;

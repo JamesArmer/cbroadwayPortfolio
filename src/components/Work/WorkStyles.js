@@ -15,7 +15,7 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   gap: 2rem;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 250px;
   max-width: 1400px;
 
