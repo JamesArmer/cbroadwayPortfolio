@@ -39,6 +39,40 @@ export const GridContainer = styled.section`
 
   grid-template-rows: repeat(16, 6.1%);
   grid-template-columns: repeat(14, 5.6%);
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-bottom: 400px;
+    
+    grid-template-areas:
+      "A A A A"
+      "A A A A"
+      "A A A A"
+      "A A A A"
+      "a a a a"
+      "B B B B"
+      "B B B B"
+      "B B B B"
+      "B B B B"
+      "b b b b"
+      "C C C C"
+      "C C C C"
+      "C C C C"
+      "C C C C"
+      "c c c c"
+      "D D D D"
+      "D D D D"
+      "D D D D"
+      "D D D D"
+      "d d d d"
+      "E E E E"
+      "E E E E"
+      "E E E E"
+      "E E E E"
+      "e e e e";
+    
+    grid-template-rows: repeat(25, 4%);
+    grid-template-columns: repeat(4, 20%);
+  }
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;

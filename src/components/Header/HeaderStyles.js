@@ -22,7 +22,7 @@ export const Container = styled.div`
   }
 `;
 export const Div1 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 3 / 5;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -38,20 +38,11 @@ export const Div2 = styled.div`
   padding-top: 0.75rem;
   grid-gap: 140px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 5;
+    grid-gap: 70px;
   }
 
   list-style: none;
-`;
-export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
-  }
 `;
 
 // Navigation Links

@@ -23,7 +23,7 @@ export const LinkItem = styled.a`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 8px;
+    font-size: 14px;
     line-height: 14px;
     margin-bottom: 8px;
     display: flex;
@@ -51,8 +51,9 @@ export const SectionContact = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    padding-top: 40px;
 
-    width: calc(100vw - 32px);
+    width: calc(40vw);
     flex-direction: column;
   }
 `;

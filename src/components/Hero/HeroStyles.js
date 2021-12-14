@@ -30,7 +30,7 @@ export const HeadersDiv = styled.div`
   grid-column: span 4 / auto;
   display: flex;
   justify-content: space-around;
-  padding-top: 0.75rem;
+  padding-top: 9px;
 
   line-height: 80px;
 
@@ -50,10 +50,6 @@ export const TitleDiv = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-column: span 3 / auto;
   }
-`;
-
-export const HeaderDiv = styled.div`
-  grid-column: span 1 / auto;
 `;
 
 export const HeroTitle = styled.h2`
@@ -84,6 +80,7 @@ export const HeroTitle = styled.h2`
     margin-bottom: 8px;
     padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
     max-width: 100%;
+    margin-left: 0px;
   }
 `;
 
