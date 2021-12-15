@@ -164,6 +164,12 @@ export const LandscapeVideo = styled.video`
   padding-bottom: 24px;
 `;
 
+export const LandscapeVideoDiv = styled.div`
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+`;
+
 export const SplitImgGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

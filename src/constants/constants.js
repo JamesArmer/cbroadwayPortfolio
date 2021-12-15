@@ -2,7 +2,7 @@ export const projects = [
   {
     title: '5G X LiFi',
     description: "",
-      image: 'https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-05.jpg',
+      image: 'https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero 2 Cropped.png',
       tags: ['Product'],
     source: '/work/5gxlifi',
     visit: '/work/5gxlifi',

@@ -1,10 +1,11 @@
+import ReactPlayer from "react-player";
 import { Layout } from "../../layout/Layout";
 import {
   CentreDiv,
   GridImgExtraWide,
   GridImgLandscape,
   LandscapeImg,
-  LandscapeVideo,
+  LandscapeVideoDiv,
   MultipleImgGrid,
   PortraitImg,
   SectionText,
@@ -15,15 +16,14 @@ const PDRLunchbox = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeVideo
-          poster="/images/PDR Lunchbox/Videos/1 Family 1 Room Thumbnail.png"
-          controls
-        >
-          <source
-            src="/images/PDR Lunchbox/Videos/1 Family 1 Room.mp4"
-            type="video/mp4"
+        <LandscapeVideoDiv>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=o3r0qBg5SUs"
+            controls
+            width="900px"
+            height="500px"
           />
-        </LandscapeVideo>
+        </LandscapeVideoDiv>
         <SectionTitle>1 Family 1 Room</SectionTitle>
         <SectionText>
           An immersive experience in the form of a lunchbox designed to build
@@ -105,7 +105,7 @@ const PDRLunchbox = () => {
           </GridImgExtraWide>
         </MultipleImgGrid>
         <MultipleImgGrid landscape noGridGap>
-        <GridImgExtraWide>
+          <GridImgExtraWide>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/pdrlunchbox/model 3.1.png" />
           </GridImgExtraWide>
           <GridImgExtraWide>
