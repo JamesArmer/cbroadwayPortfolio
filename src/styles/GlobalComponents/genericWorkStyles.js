@@ -159,7 +159,6 @@ export const SquareImg = styled.img`
 `;
 
 export const LandscapeVideo = styled.video`
-  width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
 `;

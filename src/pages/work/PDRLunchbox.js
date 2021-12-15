@@ -1,4 +1,3 @@
-import ReactPlayer from "react-player";
 import { Layout } from "../../layout/Layout";
 import {
   CentreDiv,
@@ -11,18 +10,14 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents/genericWorkStyles";
+import LandscapePlayer from "../../styles/GlobalComponents/VideoPlayers/LandscapePlayer";
 
 const PDRLunchbox = () => {
   return (
     <Layout>
       <CentreDiv>
         <LandscapeVideoDiv>
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=o3r0qBg5SUs"
-            controls
-            width="900px"
-            height="500px"
-          />
+          <LandscapePlayer url="https://www.youtube.com/watch?v=o3r0qBg5SUs" />
         </LandscapeVideoDiv>
         <SectionTitle>1 Family 1 Room</SectionTitle>
         <SectionText>
