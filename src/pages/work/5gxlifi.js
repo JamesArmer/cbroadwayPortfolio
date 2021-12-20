@@ -16,6 +16,8 @@ import {
   GridVideoLandscape,
   PortraitImg,
   Uneven5gImgGrid,
+  GridImg5gThin,
+  GridImg5gRegular,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 
 const FiveGXLiFi = () => {
@@ -47,9 +49,9 @@ const FiveGXLiFi = () => {
         </SectionText>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird Sketches.png" />
         <Uneven5gImgGrid>
-          <GridImgThin>
+          <GridImg5gThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp Close up-1.jpg" />
-          </GridImgThin>
+          </GridImg5gThin>
           <GridImgWide>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Birds on wire.png" />
           </GridImgWide>
@@ -129,9 +131,9 @@ const FiveGXLiFi = () => {
           </GridImgRegular>
         </SplitImgGrid>
         <SplitImgGrid>
-          <GridImgRegular>
+          <GridImg5gRegular>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Holding Lamp 2.jpg" />
-          </GridImgRegular>
+          </GridImg5gRegular>
           <GridImgThin>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/removed lifi conected.png" />
           </GridImgThin>

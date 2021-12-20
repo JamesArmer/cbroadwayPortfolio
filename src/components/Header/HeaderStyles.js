@@ -37,9 +37,11 @@ export const Div2 = styled.div`
   justify-content: space-around;
   padding-top: 0.75rem;
   grid-gap: 140px;
+
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 1 / 3 / 5;
+    grid-area: 2 / 2 / 3 / 5;
     grid-gap: 70px;
+    padding-left: 5px;
   }
 
   list-style: none;
@@ -56,6 +58,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
+  
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }

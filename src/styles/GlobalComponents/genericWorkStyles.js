@@ -6,6 +6,10 @@ export const CentreDiv = styled.div`
   margin-right: auto;
   padding-bottom: 20px;
   padding-top: 10px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 90%;
+  }
 `;
 
 export const ListDiv = styled.div`
@@ -128,6 +132,10 @@ export const LandscapeImg = styled.img`
   display: block;
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-width: 100%;
+  }
 `;
 
 export const SmallLandscapeImg = styled.img`
@@ -136,6 +144,10 @@ export const SmallLandscapeImg = styled.img`
   padding-top: 12px;
   padding-bottom: 12px;
   margin: auto;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-width: 100%;
+  }
 `;
 
 export const PortraitImg = styled.img`
@@ -146,6 +158,26 @@ export const PortraitImg = styled.img`
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-width: 980px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    max-width: 675px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 540px;
+  }
+  
+  @media ${(props) => props.theme.breakpoints.sm} {
+    max-width: 450px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.xs} {
+    max-width: 315px;
+  }
 `;
 
 export const SquareImg = styled.img`
@@ -156,9 +188,14 @@ export const SquareImg = styled.img`
   display: block;
   padding-top: 12px;
   padding-bottom: 12px;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-width: 100%;
+  }
 `;
 
 export const LandscapeVideo = styled.video`
+  width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
 `;
@@ -177,6 +214,11 @@ export const SplitImgGrid = styled.div`
   grid-gap: 10px;
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-template-rows: ${(props) =>
+      props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
+  }
 `;
 
 export const Uneven5gImgGrid = styled.div`
@@ -235,9 +277,30 @@ export const GridImgRegular = styled.div`
   grid-column: span 3 / auto;
 `;
 
+export const GridImg5gRegular = styled.div`
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
+  grid-column: span 3 / auto;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    grid-column: span 2 / auto;
+  }
+`;
+
 export const GridImgThin = styled.div`
   display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 2 / auto;
+`;
+
+export const GridImg5gThin = styled.div`
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
+  grid-column: span 2 / auto;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: auto;
+    grid-column: span 3 / auto;
+    grid-row: span 2 / auto;
+  }
 `;
 
 export const GridImgTriple = styled.div`
@@ -247,6 +310,10 @@ export const GridImgTriple = styled.div`
 
 export const GridImgPortrait = styled.img`
   height: 100%;
+
+  @media ${(props) => props.theme.breakpoints.xl} {
+    max-width: 100%;
+  }
 `;
 
 export const GridImgLandscape = styled.img`
@@ -254,7 +321,7 @@ export const GridImgLandscape = styled.img`
 `;
 
 export const GridVideoPortrait = styled.video`
-  height: 100%;
+  height: 100%; 
 `;
 
 export const GridVideoLandscape = styled.video`
