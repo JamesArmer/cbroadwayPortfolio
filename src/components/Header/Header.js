@@ -3,38 +3,39 @@ import React from "react";
 
 import {
   Container,
-  Div1,
-  Div2,
+  LinksDiv,
   LogoSpan,
   NavLink,
+  NavListItem,
+  TitleDiv,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
-    <Div1>
+    <TitleDiv>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "#000000" }}>
           <LogoSpan>Charles Broadway</LogoSpan>
         </a>
       </Link>
-    </Div1>
-    <Div2>
-      <li>
+    </TitleDiv>
+    <LinksDiv>
+      <NavListItem>
         <Link href="/work">
           <NavLink>Work</NavLink>
         </Link>
-      </li>
-      <li>
+      </NavListItem>
+      <NavListItem>
         <Link href="/about">
           <NavLink>About</NavLink>
         </Link>
-      </li>
-      <li>
+      </NavListItem>
+      <NavListItem>
         <Link href="/contact">
           <NavLink>Contact</NavLink>
         </Link>
-      </li>
-    </Div2>
+      </NavListItem>
+    </LinksDiv>
   </Container>
 );
 

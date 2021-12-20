@@ -21,17 +21,17 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
-export const Div1 = styled.div`
+export const TitleDiv = styled.div`
   grid-area: 1 / 2 / 3 / 5;
   display: flex;
   flex-direction: row;
   align-content: center;
   padding-top: 8px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 2 / 6;
   }
 `;
-export const Div2 = styled.div`
+export const LinksDiv = styled.div`
   grid-area: 1 / 6 / 2 / 8;
   display: flex;
   justify-content: space-around;
@@ -39,12 +39,15 @@ export const Div2 = styled.div`
   grid-gap: 140px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
-    grid-gap: 70px;
-    padding-left: 5px;
+    justify-content: flex-start;
+    grid-area: 2 / 1 / 3 / 7;
+    grid-gap: 20vw;
+    width: 100%;
   }
+`;
 
-  list-style: none;
+export const NavListItem = styled.div`
+  display: flex;
 `;
 
 // Navigation Links
@@ -64,66 +67,8 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
-export const ContactDropDown = styled.button`
-  border: none;
-  display: flex;
-  position: relative;
-  background: none;
-  font-size: 1.7rem;
-
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-  transition: 0.3s ease;
-
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    color: #fff;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.4rem 0;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    padding: 0;
-  }
-`;
-
-export const NavProductsIcon = styled(IoIosArrowDropdown)`
-  margin-left: 8px;
-  display: flex;
-  align-self: center;
-  transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
-  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
-
-  &:hover {
-    opacity: 1;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 2px 0 0 2px;
-    width: 15px;
-  }
-`;
-
-// Social Icons
-export const SocialIcons = styled.a`
-  transition: 0.3s ease;
-  color: #5b5b5b;
-  border-radius: 50px;
-  padding: 8px;
-  &:hover {
-    background-color: #cdcbcb;
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-`;
-
 export const LogoSpan = styled.span`
+  width: 100%;
   font-size: 26px;
   font-weight: normal;
   letter-spacing: 1px;
