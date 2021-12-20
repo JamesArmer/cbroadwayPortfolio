@@ -15,6 +15,10 @@ export const CentreDiv = styled.div`
 export const ListDiv = styled.div`
   width: ${(props) => (props.wide ? "40%" : "30%")};
   margin: auto;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 70%;
+  }
 `;
 
 export const SectionTitle = styled.h2`
@@ -86,18 +90,16 @@ export const SectionQuote = styled.p`
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 16px;
+    padding-bottom: 0rem;
   }
 `;
 
 export const OrderedList = styled.ol`
-  display: ordered-list
   list-style-type: decimal;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -170,7 +172,7 @@ export const PortraitImg = styled.img`
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 540px;
   }
-  
+
   @media ${(props) => props.theme.breakpoints.sm} {
     max-width: 450px;
   }
@@ -247,6 +249,12 @@ export const MultipleImgGrid = styled.div`
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-rows: ${(props) =>
+      props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
+  }
 `;
 
 export const PortraitImgGrid = styled.div`
@@ -256,6 +264,10 @@ export const PortraitImgGrid = styled.div`
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 12px;
   padding-bottom: 12px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-auto-rows: minmax(603px, auto);
+  }
 `;
 
 export const GridImgFullWidth = styled.div`
@@ -303,6 +315,15 @@ export const GridImg5gThin = styled.div`
   }
 `;
 
+export const GridImgHomedockThin = styled.div`
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
+  grid-column: span 2 / auto;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-column: span 3 / auto;
+  }
+`;
+
 export const GridImgTriple = styled.div`
   display: ${(props) => (props.noFlex ? "block" : "flex")};
   grid-column: span 1 / auto;
@@ -321,7 +342,7 @@ export const GridImgLandscape = styled.img`
 `;
 
 export const GridVideoPortrait = styled.video`
-  height: 100%; 
+  height: 100%;
 `;
 
 export const GridVideoLandscape = styled.video`

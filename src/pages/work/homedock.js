@@ -6,7 +6,7 @@ import {
   GridImgPortrait,
   GridImgRegular,
   GridImgThin,
-  GridImgTriple,
+  GridImgHomedockThin,
   GridImgWide,
   LandscapeImg,
   ListDiv,
@@ -43,21 +43,21 @@ const HomeDock = () => {
           <GridImgRegular noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 1.png" />
           </GridImgRegular>
-          <GridImgThin noFlex>
+          <GridImgHomedockThin noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 2.png" />
-          </GridImgThin>
-          <GridImgThin noFlex>
+          </GridImgHomedockThin>
+          <GridImgHomedockThin noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 3.png" />
-          </GridImgThin>
+          </GridImgHomedockThin>
           <GridImgRegular noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/Hanging.png" />
           </GridImgRegular>
-          <GridImgThin noFlex>
+          <GridImgHomedockThin noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 2.png" />
-          </GridImgThin>
-          <GridImgThin noFlex>
+          </GridImgHomedockThin>
+          <GridImgHomedockThin noFlex>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 3.png" />
-          </GridImgThin>
+          </GridImgHomedockThin>
         </PortraitImgGrid>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concepts 1.png" />
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concept 2.png" />

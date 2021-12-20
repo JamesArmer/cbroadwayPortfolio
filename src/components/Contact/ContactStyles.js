@@ -15,20 +15,6 @@ export const LinkItem = styled.a`
     color: #cdcbcb;
     left: 4px;
   }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 16px;
-    line-height: 28px;
-    display: flex;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
-    line-height: 14px;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-  }
 `;
 
 export const SectionContact = styled.section`
