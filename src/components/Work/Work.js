@@ -10,9 +10,7 @@ import {
   Img,
   HorizontalDiv,
 } from "./WorkStyles";
-import {
-  Section
-} from "../../styles/GlobalComponents/indexStyles";
+import { Section } from "../../styles/GlobalComponents/indexStyles";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
@@ -20,7 +18,12 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i} gridId={p.gridId}>
+          <BlogCard
+            key={i}
+            gridId={p.gridId}
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <a href={p.visit}>
               <Img src={p.image} />
               <HorizontalDiv>
