@@ -22,7 +22,8 @@ const Projects = () => (
             key={i}
             gridId={p.gridId}
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
           >
             <a href={p.visit}>
               <Img src={p.image} />
