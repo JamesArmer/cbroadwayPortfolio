@@ -1,4 +1,3 @@
-import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -11,7 +10,12 @@ export const Container = styled.div`
   padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1280px;
+  max-width: 100%;
+
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
