@@ -23,6 +23,8 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+
+    margin-left: 8%;
   }
 `;
 
@@ -36,8 +38,17 @@ export const HeadersDiv = styled.div`
 
   list-style: none;
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    justify-content: flex-start;
+    grid-gap: 20vw;
+    margin-left: 40px;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 3 / 5;
+    justify-content: space-around;
+    grid-gap: 18vw;
+    margin-left: 35px;
   }
 `;
 
