@@ -20,7 +20,9 @@ import {
   ListDiv,
   UnevenImgGrid,
   UnevenSightImgGrid,
+  LandscapeVideoDiv,
 } from "../../styles/GlobalComponents/genericWorkStyles";
+import LandscapePlayer from "../../styles/GlobalComponents/VideoPlayers/LandscapePlayer";
 
 const Sight = () => {
   return (
@@ -49,9 +51,9 @@ const Sight = () => {
           suppression resulted in the use of flame detector and a replaceable
           aerosol suppressant.
         </SectionText>
-        <LandscapeVideo controls>
-          <source src="/videos/Sight/Arduino Vid for website.mov" />
-        </LandscapeVideo>
+        <LandscapeVideoDiv>
+          <LandscapePlayer url="https://www.youtube.com/watch?v=OL6ACq_g2yc" />
+        </LandscapeVideoDiv>
         <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Sketch work.png" />
         <MultipleImgGrid landscape>
           <GridImgTriple>

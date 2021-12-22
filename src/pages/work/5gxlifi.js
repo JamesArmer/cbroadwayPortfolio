@@ -19,7 +19,9 @@ import {
   Uneven5gImgGrid,
   GridImg5gThin,
   GridImg5gRegular,
+  LandscapeVideoDiv,
 } from "../../styles/GlobalComponents/genericWorkStyles";
+import LandscapePlayer from "../../styles/GlobalComponents/VideoPlayers/LandscapePlayer";
 
 const FiveGXLiFi = () => {
   return (
@@ -82,15 +84,9 @@ const FiveGXLiFi = () => {
           connections. The shades can rotate allowing the user to light their
           environment as they wish and direct their LiFi connection.
         </SectionText>
-        <LandscapeVideo
-          poster="/images/5G X LiFi/Video/Interim Video Thumbnail.png"
-          controls
-        >
-          <source
-            src="/images/5G X LiFi/Video/5G X LiFi interim video.mp4"
-            type="video/mp4"
-          />
-        </LandscapeVideo>
+        <LandscapeVideoDiv>
+          <LandscapePlayer url="https://www.youtube.com/watch?v=hrv4zjD-8jc" />
+        </LandscapeVideoDiv>
         <SectionText>
           A film in the early stage of the design process, remotely presenting
           the concept direction to the client during a COVID-19 lockdown.
@@ -123,12 +119,9 @@ const FiveGXLiFi = () => {
             </GridVideoLandscape>
           </GridImgThin>
           <GridImgRegular>
-            <GridVideoLandscape controls>
-              <source
-                src="/images/5G X LiFi/Video/Switching Lamp on.mp4"
-                type="video/mp4"
-              />
-            </GridVideoLandscape>
+            <LandscapeVideoDiv>
+              <LandscapePlayer url="https://www.youtube.com/watch?v=2rdIvg9h0Yo" />
+            </LandscapeVideoDiv>
           </GridImgRegular>
         </SplitImgGrid>
         <SplitImgGrid>
