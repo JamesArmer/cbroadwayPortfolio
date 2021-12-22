@@ -223,10 +223,24 @@ export const SplitImgGrid = styled.div`
   }
 `;
 
+export const Split5gImgGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: 700px;
+  grid-gap: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-template-rows: ${(props) =>
+      props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
+  }
+`;
+
 export const Uneven5gImgGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, 131.5px);
-  grid-template-rows: 410px;
+  grid-template-columns: repeat(auto-fit, 145px);
+  grid-template-rows: 446px;
   grid-gap: 10px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -234,8 +248,8 @@ export const Uneven5gImgGrid = styled.div`
 
 export const UnevenSightImgGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, 119px);
-  grid-template-rows: 443px;
+  grid-template-columns: repeat(auto-fit, 130px);
+  grid-template-rows: 487px;
   grid-gap: 10px;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -259,8 +273,8 @@ export const MultipleImgGrid = styled.div`
 
 export const PortraitImgGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, 115px);
-  grid-auto-rows: 603px;
+  grid-template-columns: repeat(auto-fit, 131px);
+  grid-auto-rows: 685px;
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 12px;
   padding-bottom: 12px;

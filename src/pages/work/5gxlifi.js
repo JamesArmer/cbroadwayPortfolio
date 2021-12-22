@@ -13,6 +13,7 @@ import {
   SectionText,
   SectionTitle,
   SplitImgGrid,
+  Split5gImgGrid,
   GridVideoLandscape,
   PortraitImg,
   Uneven5gImgGrid,
@@ -167,22 +168,22 @@ const FiveGXLiFi = () => {
           the number of lamps they require and pay accordingly. Also covering
           the ability to return parts if there are repairs or hardware updates.
         </SectionText>
-        <SplitImgGrid portrait>
+        <Split5gImgGrid portrait>
           <GridImgThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-10.jpg" />
           </GridImgThin>
           <GridImgThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-09.jpg" />
           </GridImgThin>
-        </SplitImgGrid>
-        <SplitImgGrid portrait>
+        </Split5gImgGrid>
+        <Split5gImgGrid portrait>
           <GridImgThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero-5.jpg" />
           </GridImgThin>
           <GridImgThin>
             <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-07.jpg" />
           </GridImgThin>
-        </SplitImgGrid>
+        </Split5gImgGrid>
         <SectionText>
           By incorporating a lamp, the router becomes an ornament, holding more
           emotional value. This creates a more intimate relationship between the
