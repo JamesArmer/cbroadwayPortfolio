@@ -1,12 +1,11 @@
 import { Layout } from "../../layout/Layout";
 import {
   CentreDiv,
-  GridImgExtraWide,
   GridImgLandscape,
   GridImgPortrait,
   GridImgRegular,
-  GridImgThin,
   GridImgHomedockThin,
+  GridImgHomedockSpecial,
   GridImgWide,
   LandscapeImg,
   ListDiv,
@@ -132,15 +131,15 @@ const HomeDock = () => {
             <ListItem>Aluminium Back Casing</ListItem>
           </OrderedList>
         </ListDiv>
-        <SplitImgGrid>
+        <SplitImgGrid landscape>
           <GridImgWide>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Logo close up.png" />
           </GridImgWide>
-          <GridImgThin>
+          <GridImgHomedockSpecial>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/RCB close up.png" />
-          </GridImgThin>
+          </GridImgHomedockSpecial>
         </SplitImgGrid>
-        <SplitImgGrid>
+        <SplitImgGrid landscape>
           <GridImgRegular>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Light close up.png" />
           </GridImgRegular>

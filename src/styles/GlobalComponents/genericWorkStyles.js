@@ -217,6 +217,11 @@ export const SplitImgGrid = styled.div`
   padding-top: 18px;
   padding-bottom: 18px;
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-rows: ${(props) =>
+      props.landscape ? "auto" : props.portrait ? "600px" : "300px"};
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-template-rows: ${(props) =>
       props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
@@ -231,7 +236,7 @@ export const Split5gImgGrid = styled.div`
   padding-top: 18px;
   padding-bottom: 18px;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-template-rows: ${(props) =>
       props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
   }
@@ -244,6 +249,11 @@ export const Uneven5gImgGrid = styled.div`
   grid-gap: 10px;
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(auto-fit, 111px);
+    grid-template-rows: 350px;
+  }
 `;
 
 export const UnevenSightImgGrid = styled.div`
@@ -253,6 +263,11 @@ export const UnevenSightImgGrid = styled.div`
   grid-gap: 10px;
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(auto-fit, 93px);
+    grid-template-rows: 350px;
+  }
 `;
 
 export const MultipleImgGrid = styled.div`
@@ -263,6 +278,12 @@ export const MultipleImgGrid = styled.div`
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 18px;
   padding-bottom: 18px;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-template-rows: ${(props) =>
+      props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
+  }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
@@ -278,6 +299,11 @@ export const PortraitImgGrid = styled.div`
   grid-gap: ${(props) => (props.noGridGap ? "0px" : "10px;")};
   padding-top: 12px;
   padding-bottom: 12px;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-columns: repeat(auto-fit, 93px);
+    grid-auto-rows: 490px;
+  }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-auto-rows: minmax(603px, auto);
@@ -335,6 +361,16 @@ export const GridImgHomedockThin = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-column: span 3 / auto;
+  }
+`;
+
+export const GridImgHomedockSpecial = styled.div`
+  display: ${(props) => (props.noFlex ? "block" : "flex")};
+  grid-column: span 2 / auto;
+
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-column: span 4 / auto;
+    grid-row: span 2 / auto;
   }
 `;
 

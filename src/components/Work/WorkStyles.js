@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Img = styled.img`
   width: 100%;
@@ -40,9 +40,32 @@ export const GridContainer = styled.section`
   grid-template-rows: repeat(16, 6.1%);
   grid-template-columns: repeat(14, 5.6%);
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    grid-template-areas:
+      "A A A A a a a a"
+      "A A A A a a a a"
+      "A A A A a a a a"
+      "A A A A B B B B"
+      "b b b b B B B B"
+      "b b b b B B B B"
+      "C C C C B B B B"
+      "C C C C c c c c"
+      "C C C C c c c c"
+      "C C C C D D D D"
+      "d d d d D D D D"
+      "d d d d D D D D"
+      "E E E E D D D D"
+      "E E E E e e e e"
+      "E E E E e e e e"
+      "E E E E e e e e";
+
+    grid-template-rows: repeat(16, 6.1%);
+    grid-template-columns: repeat(8, 12%);
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding-bottom: 400px;
-    
+
     grid-template-areas:
       "A A A A"
       "A A A A"
@@ -69,7 +92,7 @@ export const GridContainer = styled.section`
       "E E E E"
       "E E E E"
       "e e e e";
-    
+
     grid-template-rows: repeat(25, 4%);
     grid-template-columns: repeat(4, 20%);
   }
@@ -96,7 +119,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 1px;
   color: #000000;
-  font-size: '2rem';
+  font-size: "2rem";
 `;
 
 export const Hr = styled.hr`
@@ -111,7 +134,7 @@ export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
   color: #dceOe7;
-  font-family: 'Droid  Serif', serif;
+  font-family: "Droid  Serif", serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -145,7 +168,7 @@ export const ExternalLinks = styled.a`
   border-radius: 15px;
   transition: 0.5s;
   &:hover {
-    background: #80F4F4;
+    background: #80f4f4;
   }
 `;
 

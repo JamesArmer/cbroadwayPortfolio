@@ -29,7 +29,7 @@ const Projects = () => (
               <Img src={p.image} />
               <HorizontalDiv>
                 <TitleContent>
-                  <HeaderThree title>{p.title}</HeaderThree>
+                  <HeaderThree>{p.title}</HeaderThree>
                 </TitleContent>
                 <TagDiv>
                   <Tag>{p.tags}</Tag>
