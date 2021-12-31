@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }) {
     AOS.init({
       offset: 100,
     });
+    document.title = "Charles Broadway";
   }, []);
 
   return (
