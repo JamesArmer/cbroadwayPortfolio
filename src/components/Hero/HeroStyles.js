@@ -46,8 +46,8 @@ export const HeadersDiv = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 3 / 5;
-    justify-content: space-around;
-    grid-gap: 18vw;
+    justify-content: flex-start;
+    grid-gap: 15%;
     margin-left: 0px;
   }
 `;
