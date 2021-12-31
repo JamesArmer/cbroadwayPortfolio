@@ -286,7 +286,7 @@ export const MultipleImgGrid = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
     grid-template-rows: ${(props) =>
       props.landscape ? "auto" : props.portrait ? "555px" : "300px"};
   }
