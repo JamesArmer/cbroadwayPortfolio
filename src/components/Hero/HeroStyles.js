@@ -24,7 +24,7 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
 
-    margin-left: 8%;
+    margin-left: 5%;
   }
 `;
 
@@ -48,7 +48,7 @@ export const HeadersDiv = styled.div`
     grid-area: 2 / 1 / 3 / 5;
     justify-content: space-around;
     grid-gap: 18vw;
-    margin-left: 35px;
+    margin-left: 0px;
   }
 `;
 

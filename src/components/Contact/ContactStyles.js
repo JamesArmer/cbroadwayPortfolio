@@ -41,5 +41,6 @@ export const SectionContact = styled.section`
 
     width: calc(40vw);
     flex-direction: column;
+    height: 50vh;
   }
 `;
