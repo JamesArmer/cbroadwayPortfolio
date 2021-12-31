@@ -108,7 +108,7 @@ const FiveGXLiFi = () => {
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/adjust2.webp" />
           </GridImgRegular>
         </SplitImgGrid>
-        <SquareImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Square LiFi 5G.gif" />
+        <SquareImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Square LiFi 5G.webp" />
         <SplitImgGrid>
           <GridImgThin>
             <GridVideoLandscape controls>
