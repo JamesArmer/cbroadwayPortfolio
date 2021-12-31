@@ -27,7 +27,7 @@ const FiveGXLiFi = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero 2 Friday.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero 2 Friday.webp" />
         <SectionTitle>5G X LiFi</SectionTitle>
         <SectionQuote>
           “Design the router of the future, made possible by 5G” - Three UK
@@ -50,13 +50,13 @@ const FiveGXLiFi = () => {
           This theme is reflected in the form through the metaphor of resting
           birds.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird Sketches.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird Sketches.webp" />
         <Uneven5gImgGrid>
           <GridImg5gThin>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp Close up-1.jpg" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp Close up-1.webp" />
           </GridImg5gThin>
           <GridImgWide>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Birds on wire.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Birds on wire.webp" />
           </GridImgWide>
         </Uneven5gImgGrid>
         <SectionText>
@@ -70,10 +70,10 @@ const FiveGXLiFi = () => {
         </SectionText>
         <SplitImgGrid landscape>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/DSC_0688.jpg" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/DSC_0688.webp" />
           </GridImgRegular>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/DSC_0705.jpg" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/DSC_0705.webp" />
           </GridImgRegular>
         </SplitImgGrid>
         <SectionText>
@@ -91,7 +91,7 @@ const FiveGXLiFi = () => {
           A film in the early stage of the design process, remotely presenting
           the concept direction to the client during a COVID-19 lockdown.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird evolution.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Bird evolution.webp" />
         <SectionText>
           The lamps house components for LiFi in a durable Polycarbonate ABS
           blend, this includes LED’s, antenna, a speaker, magnets and a charging
@@ -99,13 +99,13 @@ const FiveGXLiFi = () => {
           weight distribution and access to the battery so that it can easily be
           replaced.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp in Hand.jpg" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Lamp in Hand.webp" />
         <SplitImgGrid landscape>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/adjust1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/adjust1.webp" />
           </GridImgRegular>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/adjust2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/adjust2.webp" />
           </GridImgRegular>
         </SplitImgGrid>
         <SquareImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Square LiFi 5G.gif" />
@@ -126,10 +126,10 @@ const FiveGXLiFi = () => {
         </SplitImgGrid>
         <SplitImgGrid>
           <GridImg5gRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Holding Lamp 2.jpg" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Holding Lamp 2.webp" />
           </GridImg5gRegular>
           <GridImgThin>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/removed lifi conected.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/removed lifi conected.webp" />
           </GridImgThin>
         </SplitImgGrid>
         <SectionText>
@@ -149,8 +149,8 @@ const FiveGXLiFi = () => {
           coverage by realising a dual-purpose system providing both
           illumination and communication.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/lifi diagram.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Components-4.jpg" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/lifi diagram.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Components-4.webp" />
         <SectionText>
           The modularity of the design provides numerous benefits; optimised
           space during transportation, easily assembled by the user and easily
@@ -163,18 +163,18 @@ const FiveGXLiFi = () => {
         </SectionText>
         <Split5gImgGrid portrait>
           <GridImgThin>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-10.jpg" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-10.webp" />
           </GridImgThin>
           <GridImgThin>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-09.jpg" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Arrangements-09.webp" />
           </GridImgThin>
         </Split5gImgGrid>
         <Split5gImgGrid portrait>
           <GridImgThin>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero-5.jpg" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Hero-5.webp" />
           </GridImgThin>
           <GridImgThin>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-07.jpg" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-07.webp" />
           </GridImgThin>
         </Split5gImgGrid>
         <SectionText>
@@ -184,7 +184,7 @@ const FiveGXLiFi = () => {
           fix and update, this increases the chances that it will be kept for
           longer.
         </SectionText>
-        <PortraitImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-05.jpg" />
+        <PortraitImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Darker Hero-05.webp" />
       </CentreDiv>
     </Layout>
   );

@@ -28,7 +28,7 @@ const Sight = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Context hero.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Context hero.webp" />
         <SectionTitle>SIGHT</SectionTitle>
         <SectionQuote>Increasing independence within the home.</SectionQuote>
         <SectionText>
@@ -45,7 +45,7 @@ const Sight = () => {
           adopted because they can be expensive, obtrusive and difficult to
           retrofit. This is where the brief was found.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Firemen.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Firemen.webp" />
         <SectionText extraBottomPadding extraTopPadding>
           Research into the fastest technology for fire detection and
           suppression resulted in the use of flame detector and a replaceable
@@ -54,16 +54,16 @@ const Sight = () => {
         <LandscapeVideoDiv>
           <LandscapePlayer url="https://www.youtube.com/watch?v=OL6ACq_g2yc" />
         </LandscapeVideoDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Sketch work.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Sketch work.webp" />
         <MultipleImgGrid landscape>
           <GridImgTriple>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model 1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model 1.webp" />
           </GridImgTriple>
           <GridImgTriple>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model scales.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model scales.webp" />
           </GridImgTriple>
           <GridImgTriple>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model in hand.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/model in hand.webp" />
           </GridImgTriple>
         </MultipleImgGrid>
         <SectionText extraTopPadding extraBottomPadding>
@@ -71,25 +71,25 @@ const Sight = () => {
           simple to interact with in high stress situations and is intuitive for
           the target audience.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Installation.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Installation.webp" />
         <UnevenSightImgGrid>
           <GridImgRegular>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/Hand adjusting.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/Hand adjusting.webp" />
           </GridImgRegular>
           <GridImgWide>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/button depressed.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/sight/button depressed.webp" />
           </GridImgWide>
         </UnevenSightImgGrid>
         <SectionQuote noPadding large>
           Sequence
         </SectionQuote>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Story line of use.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Story line of use.webp" />
         <SplitImgGrid landscape>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/yellow light.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/yellow light.webp" />
           </GridImgRegular>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/red light.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/sight/red light.webp" />
           </GridImgRegular>
         </SplitImgGrid>
         <SectionText extraBottomPadding extraTopPadding>
@@ -97,7 +97,7 @@ const Sight = () => {
           manual actuation button, cancel actuation button, ON/OFF button for
           the alignment spotlight and warning lights and alarm.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Buttons.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Buttons.webp" />
         <SectionQuote noPadding extraPadding large>
           Features
         </SectionQuote>
@@ -113,9 +113,9 @@ const Sight = () => {
             <ListItem last>Vacuum insulated flask</ListItem>
           </UnorderedList>
         </ListDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Opened canister.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Colourways.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/exploded.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Opened canister.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/Colourways.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/exploded.webp" />
         <SectionQuote noPadding large>
           Components
         </SectionQuote>
@@ -132,7 +132,7 @@ const Sight = () => {
             <ListItem last>Component Housing Lid</ListItem>
           </OrderedList>
         </ListDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/orthographics.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/sight/orthographics.webp" />
       </CentreDiv>
     </Layout>
   );

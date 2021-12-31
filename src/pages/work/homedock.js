@@ -24,7 +24,7 @@ const HomeDock = () => {
   return (
     <Layout>
       <CentreDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Context.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Context.webp" />
         <SectionTitle>Home Dock</SectionTitle>
         <SectionQuote>
           “Design a home EV charger for the UK market”
@@ -40,27 +40,27 @@ const HomeDock = () => {
         </SectionText>
         <PortraitImgGrid portrait>
           <GridImgRegular noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 1.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 1.webp" />
           </GridImgRegular>
           <GridImgHomedockThin noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 2.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 2.webp" />
           </GridImgHomedockThin>
           <GridImgHomedockThin noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 3.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/bucket 3.webp" />
           </GridImgHomedockThin>
           <GridImgRegular noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/Hanging.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/Hanging.webp" />
           </GridImgRegular>
           <GridImgHomedockThin noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 2.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 2.webp" />
           </GridImgHomedockThin>
           <GridImgHomedockThin noFlex>
-            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 3.png" />
+            <GridImgPortrait src="https://cbroadwayportfolio.azureedge.net/homedock/hanging 3.webp" />
           </GridImgHomedockThin>
         </PortraitImgGrid>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concepts 1.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concept 2.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketching 2.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concepts 1.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Concept 2.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketching 2.webp" />
         <SectionQuote large extraPadding noPadding>
           Plug
         </SectionQuote>
@@ -78,26 +78,26 @@ const HomeDock = () => {
         </SectionText>
         <MultipleImgGrid landscape>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Plug model 1.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Plug model 1.webp" />
           </GridImgWide>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 2.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 2.webp" />
           </GridImgWide>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 3.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 3.webp" />
           </GridImgWide>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 4.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 4.webp" />
           </GridImgWide>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 5.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 5.webp" />
           </GridImgWide>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 6.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/plug model 6.webp" />
           </GridImgWide>
         </MultipleImgGrid>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Plug renders.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketch assembly.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Plug renders.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Sketch assembly.webp" />
         <SectionQuote large extraPadding noPadding>
           Manufacture
         </SectionQuote>
@@ -110,8 +110,8 @@ const HomeDock = () => {
           installation is very easy and components are still accessible should
           they need replacing.
         </SectionText>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Hero.png" />
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Exploded.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Hero.webp" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/Exploded.webp" />
         <SectionQuote large noPadding>
           Components
         </SectionQuote>
@@ -133,18 +133,18 @@ const HomeDock = () => {
         </ListDiv>
         <SplitImgGrid landscape>
           <GridImgWide>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Logo close up.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Logo close up.webp" />
           </GridImgWide>
           <GridImgHomedockSpecial>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/RCB close up.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/RCB close up.webp" />
           </GridImgHomedockSpecial>
         </SplitImgGrid>
         <SplitImgGrid landscape>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Light close up.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Light close up.webp" />
           </GridImgRegular>
           <GridImgRegular>
-            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Underside.png" />
+            <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/homedock/Underside.webp" />
           </GridImgRegular>
         </SplitImgGrid>
         <SectionQuote large extraPadding>
@@ -193,7 +193,7 @@ const HomeDock = () => {
             </ListItem>
           </OrderedList>
         </ListDiv>
-        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/sustainability curve.png" />
+        <LandscapeImg src="https://cbroadwayportfolio.azureedge.net/homedock/sustainability curve.webp" />
       </CentreDiv>
     </Layout>
   );
