@@ -8,8 +8,7 @@ export const Container = styled.div`
 
   padding: 1rem;
   padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+
   max-width: 100%;
 
   position: sticky;
