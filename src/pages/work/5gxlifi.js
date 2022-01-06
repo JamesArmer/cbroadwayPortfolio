@@ -8,20 +8,20 @@ import {
   GridImgThin,
   GridImgWide,
   LandscapeImg,
-  LandscapeVideo,
   SectionQuote,
   SectionText,
   SectionTitle,
   SplitImgGrid,
   Split5gImgGrid,
-  GridVideoLandscape,
   PortraitImg,
   Uneven5gImgGrid,
   GridImg5gThin,
   GridImg5gRegular,
   LandscapeVideoDiv,
+  Split5gImgGrid2,
 } from "../../styles/GlobalComponents/genericWorkStyles";
 import LandscapePlayer from "../../styles/GlobalComponents/VideoPlayers/LandscapePlayer";
+import SquarePlayer from "../../styles/GlobalComponents/VideoPlayers/SquarePlayer";
 
 const FiveGXLiFi = () => {
   return (
@@ -109,22 +109,19 @@ const FiveGXLiFi = () => {
           </GridImgRegular>
         </SplitImgGrid>
         <SquareImg src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Square LiFi 5G.webp" />
-        <SplitImgGrid>
-          <GridImgThin>
-            <GridVideoLandscape controls>
-              <source
-                src="/images/5G X LiFi/Video/Square Removing Lamp.mp4"
-                type="video/mp4"
-              />
-            </GridVideoLandscape>
-          </GridImgThin>
+        <SplitImgGrid landscape>
           <GridImgRegular>
             <LandscapeVideoDiv>
-              <LandscapePlayer url="https://www.youtube.com/watch?v=2rdIvg9h0Yo" />
+              <SquarePlayer url="https://www.youtube.com/watch?v=TtLAUe20bls" />
+            </LandscapeVideoDiv>
+          </GridImgRegular>
+          <GridImgRegular>
+            <LandscapeVideoDiv>
+              <SquarePlayer url="https://www.youtube.com/watch?v=2rdIvg9h0Yo" />
             </LandscapeVideoDiv>
           </GridImgRegular>
         </SplitImgGrid>
-        <SplitImgGrid>
+        <SplitImgGrid landscape>
           <GridImg5gRegular>
             <GridImgLandscape src="https://cbroadwayportfolio.azureedge.net/fivegxlifi/Holding Lamp 2.webp" />
           </GridImg5gRegular>

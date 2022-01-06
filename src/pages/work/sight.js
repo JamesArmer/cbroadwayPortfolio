@@ -4,11 +4,9 @@ import {
   GridImgLandscape,
   GridImgPortrait,
   GridImgRegular,
-  GridImgThin,
   GridImgTriple,
   GridImgWide,
   LandscapeImg,
-  LandscapeVideo,
   ListItem,
   SectionQuote,
   SectionText,
@@ -18,7 +16,6 @@ import {
   UnorderedList,
   OrderedList,
   ListDiv,
-  UnevenImgGrid,
   UnevenSightImgGrid,
   LandscapeVideoDiv,
 } from "../../styles/GlobalComponents/genericWorkStyles";
@@ -34,7 +31,7 @@ const Sight = () => {
         <SectionText>
           Data provided by the UK Home Office highlights that the group and
           situation when there is the greatest risk of fire within the home is
-          when the elderly are cooking unasisted.
+          when the elderly are cooking unassisted.
           <br/><br/>
           With any fire, early detection and suppression is essential for damage
           reduction. This means that it would be beneficial to use technology

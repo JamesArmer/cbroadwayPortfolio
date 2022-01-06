@@ -1,5 +1,6 @@
 import Theme from "../styles/theme";
 import "../styles/GlobalComponents/VideoPlayers/LandscapePlayer.css";
+import "../styles/GlobalComponents/VideoPlayers/SquarePlayer.css";
 
 import { useEffect } from "react";
 import AOS from "aos";

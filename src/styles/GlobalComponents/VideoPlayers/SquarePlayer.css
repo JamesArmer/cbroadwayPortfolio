@@ -1,0 +1,7 @@
+.square-player-wrapper {
+    position: relative;
+    padding-top: 100%;
+  
+    clip-path: inset(1px 1px);
+  }
+  
