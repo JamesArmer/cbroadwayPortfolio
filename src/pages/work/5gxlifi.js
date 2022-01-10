@@ -117,7 +117,7 @@ const FiveGXLiFi = () => {
           </GridImgRegular>
           <GridImgRegular>
             <LandscapeVideoDiv>
-              <SquarePlayer url="https://www.youtube.com/watch?v=2rdIvg9h0Yo" />
+              <SquarePlayer url="https://www.youtube.com/watch?v=cP3hE7AUWaI" />
             </LandscapeVideoDiv>
           </GridImgRegular>
         </SplitImgGrid>
