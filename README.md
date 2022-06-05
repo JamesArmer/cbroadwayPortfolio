@@ -1,6 +1,6 @@
 ## Personal Portfolio for a friend's Design Projects
 
-Live site URL: www.charlesbroadway.com
+Live site URL: https://agreeable-forest-0c2491e03.azurestaticapps.net/
 
 A static site built in Next.js using styled components and hosted on Azure.
 
